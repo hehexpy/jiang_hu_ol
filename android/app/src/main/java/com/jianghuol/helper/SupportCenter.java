@@ -14,7 +14,65 @@ final class SupportCenter {
     private final Activity activity;
     private final SupportConfig config;
     private static final java.util.concurrent.atomic.AtomicBoolean WORKING=new java.util.concurrent.atomic.AtomicBoolean();
+    private static final UpdateNotice AUTO=new UpdateNotice();
+    private static final class AvailableUpdate {
+        final String repository;final GitHubUpdater.Release release;
+        AvailableUpdate(String repository,GitHubUpdater.Release release){this.repository=repository;this.release=release;}
+    }
+    private static volatile AvailableUpdate automaticUpdate;
+    private final android.os.Handler foreground=new android.os.Handler(android.os.Looper.getMainLooper());
+    private boolean resumed;
+    private AlertDialog automaticDialog;
+    private final Runnable automaticTick=new Runnable(){public void run(){
+        if(!resumed)return;
+        if(canNotify()){
+            showAutomaticRelease();
+            if(automaticDialog==null)checkAutomatically();
+        }
+        foreground.postDelayed(this,30000);
+    }};
     SupportCenter(Activity activity){this.activity=activity;config=new SupportConfig(activity);}
+    void onResume(){resumed=true;foreground.removeCallbacks(automaticTick);foreground.postDelayed(automaticTick,1200);}
+    void onPause(){
+        resumed=false;foreground.removeCallbacks(automaticTick);
+        if(automaticDialog!=null){automaticDialog.dismiss();automaticDialog=null;}
+    }
+    private boolean canNotify(){return resumed&&!activity.isDestroyed()&&!activity.isFinishing()
+        &&activity.hasWindowFocus()&&!RunGate.busy()&&!WORKING.get();}
+    private void checkAutomatically(){
+        String repo=config.get("github_repo");long now=android.os.SystemClock.elapsedRealtime();
+        if(!AUTO.due(repo,now)||!WORKING.compareAndSet(false,true))return;
+        AUTO.attempted(repo,now);
+        new Thread(()->{
+            try{
+                GitHubUpdater.Release release=GitHubUpdater.check(repo);
+                if(repo.equals(config.get("github_repo")))automaticUpdate=new AvailableUpdate(repo,release);
+                AUTO.completed(repo,true);
+            }catch(Exception ignored){AUTO.completed(repo,false);}
+            finally{
+                WORKING.set(false);
+                foreground.post(()->{if(canNotify())showAutomaticRelease();});
+            }
+        },"automatic-update-check").start();
+    }
+    private void showAutomaticRelease(){
+        AvailableUpdate available=automaticUpdate;String repo=config.get("github_repo");
+        if(!canNotify()||automaticDialog!=null||available==null||!repo.equals(available.repository))return;
+        GitHubUpdater.Release release=available.release;
+        try{
+            int installed=activity.getPackageManager().getPackageInfo(activity.getPackageName(),0).versionCode;
+            if(!AUTO.shouldPrompt(repo,release.code,installed))return;
+            automaticDialog=new AlertDialog.Builder(UiStyle.dialog(activity)).setTitle("发现新版 "+release.version)
+                .setMessage(releaseMessage(release)).setPositiveButton("下载更新",(d,w)->download(release))
+                .setNegativeButton("稍后",null).create();
+            automaticDialog.setOnDismissListener(d->automaticDialog=null);
+            automaticDialog.show();UiStyle.polish(automaticDialog);AUTO.shown(release.code);
+        }catch(Exception ignored){if(automaticDialog!=null){automaticDialog.dismiss();automaticDialog=null;}}
+    }
+    private String releaseMessage(GitHubUpdater.Release release){
+        String notes=release.notes.length()>2000?release.notes.substring(0,2000):release.notes;
+        return String.format(java.util.Locale.CHINA,"安装包 %.1f MB\n\n%s",release.size/1048576.0,notes);
+    }
     private void message(String text){if(!activity.isDestroyed())new AlertDialog.Builder(UiStyle.dialog(activity)).setMessage(text).setPositiveButton("知道了",null).show();}
     private void task(String text,Work work){
         if(RunGate.busy()){message("请等脚本停止后再上传日志或更新");return;}
@@ -73,9 +131,8 @@ final class SupportCenter {
             activity.runOnUiThread(()->{
                 if(activity.isDestroyed())return;
                 if(release.code<=current){message("当前已是最新版本 · "+version());return;}
-                String notes=release.notes.length()>2000?release.notes.substring(0,2000):release.notes;
                 new AlertDialog.Builder(UiStyle.dialog(activity)).setTitle("发现新版 "+release.version)
-                    .setMessage(String.format(java.util.Locale.CHINA,"安装包 %.1f MB\n\n%s",release.size/1048576.0,notes))
+                    .setMessage(releaseMessage(release))
                     .setPositiveButton("下载更新",(d,w)->download(release)).setNegativeButton("稍后",null).show();
             });
         });

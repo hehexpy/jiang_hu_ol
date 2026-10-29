@@ -56,6 +56,8 @@ public class MainActivity extends Activity {
         getSharedPreferences("farm",0).registerOnSharedPreferenceChangeListener(farmSettingsListener);
         bridge=new BridgeClient(getPreferences(0).getString("bridge_token",""));build();ui.post(refresh);if(state==null)handleFarmOverlay(getIntent());    }
     @Override protected void onNewIntent(Intent intent){super.onNewIntent(intent);setIntent(intent);handleFarmOverlay(intent);}
+    @Override protected void onResume(){super.onResume();if(supportCenter!=null)supportCenter.onResume();}
+    @Override protected void onPause(){if(supportCenter!=null)supportCenter.onPause();super.onPause();}
     private void handleFarmOverlay(Intent intent){
         if(!intent.getBooleanExtra("overlay_farm_start",false))return;
         String target=intent.getStringExtra("overlay_farm_package");
