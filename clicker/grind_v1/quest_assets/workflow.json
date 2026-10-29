@@ -1,0 +1,1120 @@
+{
+  "version": 1,
+  "status": "PARTIAL_6_6",
+  "limitations": [
+    "6-6行踪败露到重伤而逃缺完整动作采样",
+    "6-7/6-8尚未采样",
+    "背包满需人工处理"
+  ],
+  "anchors": {
+    "world_tasks": {
+      "template": "../../tpl_quest_world_tasks.png",
+      "hint": [
+        0.0685,
+        0.9199999999999999
+      ],
+      "pad": [
+        0.0755,
+        0.02699999999999996
+      ],
+      "source": "128_after_user_change.png",
+      "box": [
+        0.005,
+        0.901,
+        0.132,
+        0.939
+      ]
+    },
+    "map_ying": {
+      "template": "../../tpl_quest_map_ying.png",
+      "hint": [
+        0.889,
+        0.086
+      ],
+      "pad": [
+        0.12099999999999998,
+        0.019000000000000003
+      ],
+      "source": "128_after_user_change.png",
+      "box": [
+        0.78,
+        0.075,
+        0.998,
+        0.097
+      ]
+    },
+    "map_yan": {
+      "template": "../../tpl_quest_map_yan.png",
+      "hint": [
+        0.9315,
+        0.086
+      ],
+      "pad": [
+        0.0775,
+        0.019000000000000003
+      ],
+      "source": "118_close_tasks.png",
+      "box": [
+        0.866,
+        0.075,
+        0.997,
+        0.097
+      ]
+    },
+    "battle_coin": {
+      "template": "../../tpl_quest_battle_coin.png",
+      "hint": [
+        0.8049999999999999,
+        0.021
+      ],
+      "pad": [
+        0.04399999999999997,
+        0.021
+      ],
+      "source": "126_attack_soldier.png",
+      "box": [
+        0.773,
+        0.008,
+        0.837,
+        0.034
+      ]
+    },
+    "accept": {
+      "template": "../../tpl_quest_accept.png",
+      "hint": [
+        0.4965,
+        0.6635
+      ],
+      "pad": [
+        0.10449999999999997,
+        0.021500000000000012
+      ],
+      "source": "120_select_66.png",
+      "box": [
+        0.404,
+        0.65,
+        0.589,
+        0.677
+      ]
+    },
+    "finish": {
+      "template": "../../tpl_quest_finish.png",
+      "hint": [
+        0.494,
+        0.6635
+      ],
+      "pad": [
+        0.10799999999999997,
+        0.023500000000000014
+      ],
+      "source": "123_npc_66_end.png",
+      "box": [
+        0.398,
+        0.648,
+        0.59,
+        0.679
+      ]
+    },
+    "complete_stamp": {
+      "template": "../../tpl_quest_complete_stamp.png",
+      "hint": [
+        0.675,
+        0.5349999999999999
+      ],
+      "pad": [
+        0.137,
+        0.052999999999999985
+      ],
+      "source": "123_npc_66_end.png",
+      "box": [
+        0.55,
+        0.49,
+        0.8,
+        0.58
+      ]
+    },
+    "npc_wu": {
+      "template": "../../tpl_quest_npc_wu.png",
+      "hint": [
+        0.5,
+        0.56
+      ],
+      "pad": [
+        0.48,
+        0.29
+      ],
+      "source": "130_current.png",
+      "box": [
+        0.774,
+        0.634,
+        0.878,
+        0.659
+      ]
+    },
+    "npc_chang": {
+      "template": "../../tpl_quest_npc_chang.png",
+      "hint": [
+        0.5,
+        0.56
+      ],
+      "pad": [
+        0.48,
+        0.29
+      ],
+      "source": "118_close_tasks.png",
+      "box": [
+        0.755,
+        0.481,
+        0.902,
+        0.503
+      ]
+    },
+    "npc_patrol": {
+      "template": "../../tpl_quest_npc_patrol.png",
+      "hint": [
+        0.5,
+        0.56
+      ],
+      "pad": [
+        0.48,
+        0.29
+      ],
+      "source": "147_patrol_npc.png",
+      "box": [
+        0.477,
+        0.51,
+        0.622,
+        0.538
+      ]
+    },
+    "npc_suicide": {
+      "template": "../../tpl_quest_npc_suicide.png",
+      "hint": [
+        0.4905,
+        0.56
+      ],
+      "pad": [
+        0.4895,
+        0.29
+      ],
+      "source": "144_accept_opportunity.png",
+      "box": [
+        0.014,
+        0.543,
+        0.236,
+        0.571
+      ]
+    },
+    "title_intro": {
+      "template": "../../tpl_quest_title_intro.png",
+      "hint": [
+        0.51,
+        0.254
+      ],
+      "pad": [
+        0.14200000000000002,
+        0.01900000000000001
+      ],
+      "source": "120_select_66.png",
+      "box": [
+        0.38,
+        0.243,
+        0.64,
+        0.265
+      ]
+    },
+    "follow_title": {
+      "template": "../../tpl_quest_follow_title.png",
+      "hint": [
+        0.51,
+        0.3185
+      ],
+      "pad": [
+        0.14200000000000002,
+        0.01850000000000001
+      ],
+      "source": "121_accept_66.png",
+      "box": [
+        0.38,
+        0.308,
+        0.64,
+        0.329
+      ]
+    },
+    "follow": {
+      "template": "../../tpl_quest_follow.png",
+      "hint": [
+        0.497,
+        0.5994999999999999
+      ],
+      "pad": [
+        0.06800000000000002,
+        0.021500000000000012
+      ],
+      "source": "121_accept_66.png",
+      "box": [
+        0.441,
+        0.586,
+        0.553,
+        0.613
+      ]
+    },
+    "tracker_intro": {
+      "template": "../../tpl_quest_tracker_intro.png",
+      "hint": [
+        0.802,
+        0.248
+      ],
+      "pad": [
+        0.183,
+        0.01900000000000001
+      ],
+      "source": "122_follow_66.png",
+      "box": [
+        0.631,
+        0.237,
+        0.973,
+        0.259
+      ]
+    },
+    "title_infiltrate": {
+      "template": "../../tpl_quest_title_infiltrate.png",
+      "hint": [
+        0.51,
+        0.254
+      ],
+      "pad": [
+        0.14200000000000002,
+        0.01900000000000001
+      ],
+      "source": "124_finish_66.png",
+      "box": [
+        0.38,
+        0.243,
+        0.64,
+        0.265
+      ]
+    },
+    "white_infiltrate": {
+      "template": "../../tpl_quest_white_infiltrate.png",
+      "hint": [
+        0.802,
+        0.201
+      ],
+      "pad": [
+        0.183,
+        0.018999999999999996
+      ],
+      "source": "125_accept_infiltrate.png",
+      "box": [
+        0.631,
+        0.19,
+        0.973,
+        0.212
+      ]
+    },
+    "enemy_infiltrate": {
+      "template": "../../tpl_quest_enemy_infiltrate.png",
+      "hint": [
+        0.5,
+        0.56
+      ],
+      "pad": [
+        0.48,
+        0.29
+      ],
+      "source": "125_accept_infiltrate.png",
+      "box": [
+        0.678,
+        0.508,
+        0.904,
+        0.535
+      ]
+    },
+    "green_infiltrate": {
+      "template": "../../tpl_quest_green_infiltrate.png",
+      "hint": [
+        0.802,
+        0.201
+      ],
+      "pad": [
+        0.183,
+        0.018999999999999996
+      ],
+      "source": "128_after_user_change.png",
+      "box": [
+        0.631,
+        0.19,
+        0.973,
+        0.212
+      ]
+    },
+    "title_risk": {
+      "template": "../../tpl_quest_title_risk.png",
+      "hint": [
+        0.51,
+        0.254
+      ],
+      "pad": [
+        0.14200000000000002,
+        0.01900000000000001
+      ],
+      "source": "132_finish_infiltrate.png",
+      "box": [
+        0.38,
+        0.243,
+        0.64,
+        0.265
+      ]
+    },
+    "white_risk": {
+      "template": "../../tpl_quest_white_risk.png",
+      "hint": [
+        0.802,
+        0.201
+      ],
+      "pad": [
+        0.183,
+        0.018999999999999996
+      ],
+      "source": "133_accept_risk.png",
+      "box": [
+        0.631,
+        0.19,
+        0.973,
+        0.212
+      ]
+    },
+    "enemy_risk": {
+      "template": "../../tpl_quest_enemy_risk.png",
+      "hint": [
+        0.5,
+        0.56
+      ],
+      "pad": [
+        0.48,
+        0.29
+      ],
+      "source": "133_accept_risk.png",
+      "box": [
+        0.45,
+        0.644,
+        0.643,
+        0.67
+      ]
+    },
+    "green_risk": {
+      "template": "../../tpl_quest_green_risk.png",
+      "hint": [
+        0.802,
+        0.201
+      ],
+      "pad": [
+        0.183,
+        0.018999999999999996
+      ],
+      "source": "_136_exit_guard_before.png",
+      "box": [
+        0.631,
+        0.19,
+        0.973,
+        0.212
+      ]
+    },
+    "title_scare": {
+      "template": "../../tpl_quest_title_scare.png",
+      "hint": [
+        0.51,
+        0.254
+      ],
+      "pad": [
+        0.14200000000000002,
+        0.01900000000000001
+      ],
+      "source": "138_finish_guard.png",
+      "box": [
+        0.38,
+        0.243,
+        0.64,
+        0.265
+      ]
+    },
+    "white_scare": {
+      "template": "../../tpl_quest_white_scare.png",
+      "hint": [
+        0.802,
+        0.201
+      ],
+      "pad": [
+        0.183,
+        0.018999999999999996
+      ],
+      "source": "139_accept_scare.png",
+      "box": [
+        0.631,
+        0.19,
+        0.973,
+        0.212
+      ]
+    },
+    "enemy_scare": {
+      "template": "../../tpl_quest_enemy_scare.png",
+      "hint": [
+        0.5,
+        0.56
+      ],
+      "pad": [
+        0.48,
+        0.29
+      ],
+      "source": "139_accept_scare.png",
+      "box": [
+        0.306,
+        0.593,
+        0.443,
+        0.62
+      ]
+    },
+    "green_scare": {
+      "template": "../../tpl_quest_green_scare.png",
+      "hint": [
+        0.802,
+        0.201
+      ],
+      "pad": [
+        0.183,
+        0.018999999999999996
+      ],
+      "source": "141_captain_result.png",
+      "box": [
+        0.631,
+        0.19,
+        0.973,
+        0.212
+      ]
+    },
+    "title_opportunity": {
+      "template": "../../tpl_quest_title_opportunity.png",
+      "hint": [
+        0.51,
+        0.254
+      ],
+      "pad": [
+        0.14200000000000002,
+        0.01900000000000001
+      ],
+      "source": "143_finish_captain.png",
+      "box": [
+        0.38,
+        0.243,
+        0.64,
+        0.265
+      ]
+    },
+    "white_opportunity": {
+      "template": "../../tpl_quest_white_opportunity.png",
+      "hint": [
+        0.802,
+        0.201
+      ],
+      "pad": [
+        0.183,
+        0.018999999999999996
+      ],
+      "source": "144_accept_opportunity.png",
+      "box": [
+        0.631,
+        0.19,
+        0.973,
+        0.212
+      ]
+    },
+    "title_exposed": {
+      "template": "../../tpl_quest_title_exposed.png",
+      "hint": [
+        0.51,
+        0.254
+      ],
+      "pad": [
+        0.14200000000000002,
+        0.01900000000000001
+      ],
+      "source": "148_patrol_body.png",
+      "box": [
+        0.38,
+        0.243,
+        0.64,
+        0.265
+      ]
+    },
+    "green_exposed": {
+      "template": "../../tpl_quest_green_exposed.png",
+      "hint": [
+        0.802,
+        0.201
+      ],
+      "pad": [
+        0.183,
+        0.018999999999999996
+      ],
+      "source": "150_patrol_result.png",
+      "box": [
+        0.631,
+        0.19,
+        0.973,
+        0.212
+      ]
+    },
+    "title_escape": {
+      "template": "../../tpl_quest_title_escape.png",
+      "hint": [
+        0.51,
+        0.254
+      ],
+      "pad": [
+        0.14200000000000002,
+        0.01900000000000001
+      ],
+      "source": "152_return_chang.png",
+      "box": [
+        0.38,
+        0.243,
+        0.64,
+        0.265
+      ]
+    },
+    "green_escape": {
+      "template": "../../tpl_quest_green_escape.png",
+      "hint": [
+        0.802,
+        0.201
+      ],
+      "pad": [
+        0.183,
+        0.018999999999999996
+      ],
+      "source": "_151_turnin_patrol_before.png",
+      "box": [
+        0.631,
+        0.19,
+        0.973,
+        0.212
+      ]
+    },
+    "reward_title": {
+      "template": "../../tpl_quest_reward_title.png",
+      "hint": [
+        0.5,
+        0.15050000000000002
+      ],
+      "pad": [
+        0.14600000000000002,
+        0.0235
+      ],
+      "source": "153_finish_escape.png",
+      "box": [
+        0.366,
+        0.135,
+        0.634,
+        0.166
+      ]
+    },
+    "choose_reward": {
+      "template": "../../tpl_quest_choose_reward.png",
+      "hint": [
+        0.39349999999999996,
+        0.4445
+      ],
+      "pad": [
+        0.1055,
+        0.02850000000000002
+      ],
+      "source": "153_finish_escape.png",
+      "box": [
+        0.3,
+        0.424,
+        0.487,
+        0.465
+      ]
+    },
+    "reward_confirmation": {
+      "template": "../../tpl_quest_reward_confirmation.png",
+      "hint": [
+        0.475,
+        0.4245
+      ],
+      "pad": [
+        0.41700000000000004,
+        0.0355
+      ],
+      "source": "154_choose_free_reward.png",
+      "box": [
+        0.07,
+        0.397,
+        0.88,
+        0.452
+      ]
+    },
+    "open_reward": {
+      "template": "../../tpl_quest_open_reward.png",
+      "hint": [
+        0.7515000000000001,
+        0.5725
+      ],
+      "pad": [
+        0.1405,
+        0.030499999999999965
+      ],
+      "source": "154_choose_free_reward.png",
+      "box": [
+        0.623,
+        0.55,
+        0.88,
+        0.595
+      ]
+    },
+    "bag_full": {
+      "template": "../../tpl_quest_bag_full.png",
+      "hint": [
+        0.497,
+        0.442
+      ],
+      "pad": [
+        0.33899999999999997,
+        0.02100000000000001
+      ],
+      "source": "155_open_reward.png",
+      "box": [
+        0.17,
+        0.429,
+        0.824,
+        0.455
+      ]
+    }
+  },
+  "steps": [
+    {
+      "id": "accept_intro",
+      "pre": [
+        "title_intro",
+        "accept"
+      ],
+      "tap": "accept",
+      "post": [
+        [
+          "follow_title",
+          "follow"
+        ]
+      ]
+    },
+    {
+      "id": "follow_intro",
+      "pre": [
+        "follow_title",
+        "follow"
+      ],
+      "tap": "follow",
+      "post": [
+        [
+          "map_ying",
+          "world_tasks",
+          "tracker_intro"
+        ]
+      ],
+      "timeout": 40
+    },
+    {
+      "id": "turnin_intro",
+      "pre": [
+        "map_ying",
+        "world_tasks",
+        "tracker_intro",
+        "npc_wu"
+      ],
+      "tap": "npc_wu",
+      "post": [
+        [
+          "title_intro",
+          "finish",
+          "complete_stamp"
+        ]
+      ]
+    },
+    {
+      "id": "finish_intro",
+      "pre": [
+        "title_intro",
+        "finish",
+        "complete_stamp"
+      ],
+      "tap": "finish",
+      "post": [
+        [
+          "title_infiltrate",
+          "accept"
+        ]
+      ]
+    },
+    {
+      "id": "accept_infiltrate",
+      "pre": [
+        "title_infiltrate",
+        "accept"
+      ],
+      "tap": "accept",
+      "post": [
+        [
+          "map_ying",
+          "world_tasks",
+          "white_infiltrate"
+        ]
+      ]
+    },
+    {
+      "id": "attack_infiltrate",
+      "pre": [
+        "map_ying",
+        "world_tasks",
+        "white_infiltrate",
+        "enemy_infiltrate"
+      ],
+      "tap": "enemy_infiltrate",
+      "post": [
+        [
+          "battle_coin"
+        ]
+      ],
+      "timeout": 15
+    },
+    {
+      "id": "turnin_infiltrate",
+      "pre": [
+        "map_ying",
+        "world_tasks",
+        "green_infiltrate",
+        "npc_wu"
+      ],
+      "tap": "npc_wu",
+      "post": [
+        [
+          "title_infiltrate",
+          "finish",
+          "complete_stamp"
+        ]
+      ]
+    },
+    {
+      "id": "finish_infiltrate",
+      "pre": [
+        "title_infiltrate",
+        "finish",
+        "complete_stamp"
+      ],
+      "tap": "finish",
+      "post": [
+        [
+          "title_risk",
+          "accept"
+        ]
+      ]
+    },
+    {
+      "id": "accept_risk",
+      "pre": [
+        "title_risk",
+        "accept"
+      ],
+      "tap": "accept",
+      "post": [
+        [
+          "map_ying",
+          "world_tasks",
+          "white_risk"
+        ]
+      ]
+    },
+    {
+      "id": "attack_risk",
+      "pre": [
+        "map_ying",
+        "world_tasks",
+        "white_risk",
+        "enemy_risk"
+      ],
+      "tap": "enemy_risk",
+      "post": [
+        [
+          "battle_coin"
+        ]
+      ],
+      "timeout": 15
+    },
+    {
+      "id": "turnin_risk",
+      "pre": [
+        "map_ying",
+        "world_tasks",
+        "green_risk",
+        "npc_wu"
+      ],
+      "tap": "npc_wu",
+      "post": [
+        [
+          "title_risk",
+          "finish",
+          "complete_stamp"
+        ]
+      ]
+    },
+    {
+      "id": "finish_risk",
+      "pre": [
+        "title_risk",
+        "finish",
+        "complete_stamp"
+      ],
+      "tap": "finish",
+      "post": [
+        [
+          "title_scare",
+          "accept"
+        ]
+      ]
+    },
+    {
+      "id": "accept_scare",
+      "pre": [
+        "title_scare",
+        "accept"
+      ],
+      "tap": "accept",
+      "post": [
+        [
+          "map_ying",
+          "world_tasks",
+          "white_scare"
+        ]
+      ]
+    },
+    {
+      "id": "attack_scare",
+      "pre": [
+        "map_ying",
+        "world_tasks",
+        "white_scare",
+        "enemy_scare"
+      ],
+      "tap": "enemy_scare",
+      "post": [
+        [
+          "battle_coin"
+        ]
+      ],
+      "timeout": 15
+    },
+    {
+      "id": "turnin_scare",
+      "pre": [
+        "map_ying",
+        "world_tasks",
+        "green_scare",
+        "npc_wu"
+      ],
+      "tap": "npc_wu",
+      "post": [
+        [
+          "title_scare",
+          "finish",
+          "complete_stamp"
+        ]
+      ]
+    },
+    {
+      "id": "finish_scare",
+      "pre": [
+        "title_scare",
+        "finish",
+        "complete_stamp"
+      ],
+      "tap": "finish",
+      "post": [
+        [
+          "title_opportunity",
+          "accept"
+        ]
+      ]
+    },
+    {
+      "id": "accept_opportunity",
+      "pre": [
+        "title_opportunity",
+        "accept"
+      ],
+      "tap": "accept",
+      "post": [
+        [
+          "map_ying",
+          "world_tasks",
+          "white_opportunity"
+        ]
+      ]
+    },
+    {
+      "id": "talk_suicide",
+      "pre": [
+        "map_ying",
+        "world_tasks",
+        "white_opportunity",
+        "npc_suicide"
+      ],
+      "tap": "npc_suicide",
+      "post": [
+        [
+          "title_opportunity",
+          "finish",
+          "complete_stamp"
+        ]
+      ]
+    },
+    {
+      "id": "finish_opportunity",
+      "pre": [
+        "title_opportunity",
+        "finish",
+        "complete_stamp"
+      ],
+      "tap": "finish",
+      "post": [
+        [
+          "map_ying",
+          "world_tasks",
+          "npc_patrol"
+        ]
+      ]
+    },
+    {
+      "id": "talk_patrol",
+      "pre": [
+        "map_ying",
+        "world_tasks",
+        "npc_patrol"
+      ],
+      "tap": "npc_patrol",
+      "post": [
+        [
+          "title_exposed",
+          "accept"
+        ]
+      ],
+      "tap_offset": [
+        0,
+        0.05
+      ],
+      "exclude": [
+        "white_opportunity"
+      ]
+    },
+    {
+      "id": "accept_exposed",
+      "pre": [
+        "title_exposed",
+        "accept"
+      ],
+      "tap": "accept",
+      "post": [
+        [
+          "battle_coin"
+        ]
+      ],
+      "timeout": 20
+    },
+    {
+      "id": "turnin_escape",
+      "pre": [
+        "map_yan",
+        "world_tasks",
+        "green_escape",
+        "npc_chang"
+      ],
+      "tap": "npc_chang",
+      "post": [
+        [
+          "title_escape",
+          "finish",
+          "complete_stamp"
+        ]
+      ]
+    },
+    {
+      "id": "finish_escape",
+      "pre": [
+        "title_escape",
+        "finish",
+        "complete_stamp"
+      ],
+      "tap": "finish",
+      "post": [
+        [
+          "reward_title",
+          "choose_reward"
+        ]
+      ]
+    },
+    {
+      "id": "choose_free_reward",
+      "pre": [
+        "reward_title",
+        "choose_reward"
+      ],
+      "tap": "choose_reward",
+      "post": [
+        [
+          "reward_confirmation",
+          "open_reward"
+        ]
+      ]
+    },
+    {
+      "id": "bag_full",
+      "pre": [
+        "bag_full"
+      ],
+      "tap": null,
+      "post": [],
+      "stop_reason": "BLOCKED_BAG_FULL"
+    },
+    {
+      "id": "wait_battle",
+      "pre": [
+        "battle_coin"
+      ],
+      "tap": null,
+      "post": [
+        [
+          "map_ying",
+          "world_tasks",
+          "green_infiltrate"
+        ],
+        [
+          "map_ying",
+          "world_tasks",
+          "green_risk"
+        ],
+        [
+          "map_ying",
+          "world_tasks",
+          "green_scare"
+        ],
+        [
+          "map_ying",
+          "world_tasks",
+          "green_exposed"
+        ]
+      ],
+      "timeout": 120,
+      "exclude": [
+        "world_tasks"
+      ]
+    }
+  ]
+}

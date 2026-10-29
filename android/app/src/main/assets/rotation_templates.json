@@ -1,0 +1,623 @@
+{
+  "version": 1,
+  "panel_glyph_box": [
+    0.24,
+    0.455,
+    0.41,
+    0.485
+  ],
+  "selection_verification": "选角时采完整白色姓名并排除等级、二值化持久化；队长名册按申请顺序对应行核验一次，取消队员职业与头像面板验证",
+  "professions": [
+    {
+      "name": "武圣",
+      "panel": "rotation/panel_wusheng.png",
+      "selection": "rotation/selection_wusheng.png",
+      "roster": "rotation/roster_wusheng.png"
+    },
+    {
+      "name": "医仙",
+      "panel": "rotation/panel_yixian.png",
+      "selection": "rotation/selection_yixian.png"
+    },
+    {
+      "name": "神偷",
+      "panel": "rotation/panel_shentou.png",
+      "selection": "rotation/selection_shentou.png"
+    }
+  ],
+  "panel_box": [
+    0.24,
+    0.448,
+    0.41,
+    0.495
+  ],
+  "panel_threshold": 0.9,
+  "source": "analysis/t064/member3-panel.png",
+  "selection_templates_ready": true,
+  "buttons": {
+    "disband_success": {
+      "template": "rotation/disband_success.png",
+      "box": [
+        0.36,
+        0.45,
+        0.65,
+        0.48
+      ],
+      "source": "analysis/t064/disband-confirm.png",
+      "threshold": 0.9
+    },
+    "system": {
+      "template": "rotation/system.png",
+      "box": [
+        0.71,
+        0.688,
+        0.829,
+        0.723
+      ],
+      "source": "analysis/t064/member2-menu.png",
+      "threshold": 0.9
+    },
+    "exit": {
+      "template": "rotation/exit.png",
+      "box": [
+        0.63,
+        0.593,
+        0.815,
+        0.627
+      ],
+      "source": "analysis/t064/member2-system.png",
+      "threshold": 0.9
+    },
+    "slot_left": {
+      "template": "rotation/slot_left.png",
+      "box": [
+        0.199,
+        0.477,
+        0.263,
+        0.523
+      ],
+      "source": "analysis/t064/selection-stage/member2-centre-confirmed.png",
+      "threshold": 0.9
+    },
+    "slot_right": {
+      "template": "rotation/slot_right.png",
+      "box": [
+        0.784,
+        0.477,
+        0.845,
+        0.526
+      ],
+      "source": "analysis/t064/selection-stage/member2-centre-confirmed.png",
+      "threshold": 0.9
+    },
+    "selection_wusheng": {
+      "template": "rotation/selection_wusheng.png",
+      "box": [
+        0.412,
+        0.779,
+        0.508,
+        0.807
+      ],
+      "source": "analysis/t064/selection-stage/member2-centre-confirmed.png",
+      "threshold": 0.9
+    },
+    "role_list": {
+      "template": "rotation/role_list.png",
+      "box": [
+        0.195,
+        0.594,
+        0.376,
+        0.626
+      ],
+      "source": "analysis/t064/member2-system.png",
+      "threshold": 0.9
+    },
+    "selection_yixian": {
+      "template": "rotation/selection_yixian.png",
+      "box": [
+        0.412,
+        0.779,
+        0.508,
+        0.807
+      ],
+      "source": "analysis/t064/calibration-left-stable.png",
+      "threshold": 0.9
+    },
+    "reward_title": {
+      "template": "rotation/reward_title.png",
+      "box": [
+        0.35,
+        0.14,
+        0.665,
+        0.18
+      ],
+      "source": "analysis/t064/calibration-current.png",
+      "threshold": 0.9
+    },
+    "reward_close": {
+      "template": "rotation/reward_close.png",
+      "box": [
+        0.89,
+        0.145,
+        0.935,
+        0.18
+      ],
+      "source": "analysis/t064/calibration-current.png",
+      "threshold": 0.9
+    },
+    "reward_claim": {
+      "template": "rotation/reward_claim.png",
+      "box": [
+        0.36,
+        0.799,
+        0.62,
+        0.85
+      ],
+      "source": "analysis/t064/calibration-current.png",
+      "threshold": 0.9
+    },
+    "selection_shentou": {
+      "template": "rotation/selection_shentou.png",
+      "box": [
+        0.412,
+        0.779,
+        0.508,
+        0.807
+      ],
+      "source": "analysis/t064/calibration-right.png",
+      "threshold": 0.9
+    },
+    "reward_none": {
+      "template": "rotation/reward_none.png",
+      "box": [
+        0.31,
+        0.445,
+        0.69,
+        0.482
+      ],
+      "source": "analysis/t064/reward-observed-retry.png",
+      "threshold": 0.9
+    },
+    "reward_result_close": {
+      "template": "rotation/reward_result_close.png",
+      "box": [
+        0.82,
+        0.403,
+        0.882,
+        0.437
+      ],
+      "source": "analysis/t064/reward-observed-retry.png",
+      "threshold": 0.9
+    },
+    "avatar_frame": {
+      "template": "rotation/avatar_frame.png",
+      "tap_offset": [
+        0.05,
+        0.03
+      ],
+      "box": [
+        0.015,
+        0.015,
+        0.037,
+        0.032
+      ],
+      "source": "analysis/t064/avatar-current-failed.png",
+      "threshold": 0.9
+    },
+    "avatar_shentou": {
+      "template": "rotation/avatar_shentou.png",
+      "box": [
+        0.035,
+        0.025,
+        0.113,
+        0.078
+      ],
+      "source": "analysis/t064/thief-panel-confirmed.png",
+      "threshold": 0.9
+    },
+    "panel_shentou": {
+      "template": "rotation/panel_shentou.png",
+      "box": [
+        0.2722,
+        0.4583,
+        0.3704,
+        0.4844
+      ],
+      "source": "analysis/t064/thief-role-panel.png",
+      "threshold": 0.9
+    },
+    "panel_yixian": {
+      "template": "rotation/panel_yixian.png",
+      "box": [
+        0.2722,
+        0.4583,
+        0.3704,
+        0.4844
+      ],
+      "source": "analysis/t064/medic-panels-confirmed/member2-panel.png",
+      "threshold": 0.9
+    },
+    "map_button": {
+      "template": "rotation/map_button.png",
+      "box": [
+        0.195,
+        0.959,
+        0.308,
+        0.997
+      ],
+      "source": "analysis/t064/map-current.png",
+      "threshold": 0.9
+    },
+    "map_city_left": {
+      "template": "rotation/map_city_left.png",
+      "box": [
+        0.531,
+        0.315,
+        0.585,
+        0.369
+      ],
+      "source": "analysis/t064/thief-panel-confirmed-2.png",
+      "threshold": 0.9
+    },
+    "map_city_right": {
+      "template": "rotation/map_city_right.png",
+      "box": [
+        0.645,
+        0.315,
+        0.724,
+        0.369
+      ],
+      "source": "analysis/t064/thief-panel-confirmed-2.png",
+      "threshold": 0.9
+    },
+    "map_landmark": {
+      "template": "rotation/map_landmark.png",
+      "box": [
+        0.152,
+        0.106,
+        0.285,
+        0.273
+      ],
+      "source": "analysis/t064/thief-panel-confirmed-2.png",
+      "threshold": 0.9
+    },
+    "slot_wusheng": {
+      "template": "rotation/slot_wusheng.png",
+      "box": [
+        0.805,
+        0.455,
+        0.862,
+        0.505
+      ],
+      "source": "analysis/t064/calibration-return-thief-confirmed/member2-selection.png",
+      "threshold": 0.9
+    },
+    "selection_marker": {
+      "template": "rotation/selection_marker.png",
+      "box": [
+        0.459,
+        0.312,
+        0.535,
+        0.367
+      ],
+      "source": "analysis/t064/calibration-return-thief-confirmed/member2-selection.png",
+      "threshold": 0.9
+    },
+    "exit_title": {
+      "template": "rotation/exit_title.png",
+      "box": [
+        0.401,
+        0.338,
+        0.59,
+        0.371
+      ],
+      "source": "analysis/t064/login-close-negative.png",
+      "threshold": 0.9
+    },
+    "exit_cancel": {
+      "template": "rotation/exit_cancel.png",
+      "box": [
+        0.62,
+        0.598,
+        0.882,
+        0.649
+      ],
+      "source": "analysis/t064/login-close-negative.png",
+      "threshold": 0.9
+    },
+    "friend_first_probe": {
+      "template": "rotation/friend_first_probe.png",
+      "box": [
+        0.075,
+        0.253,
+        0.207,
+        0.281
+      ],
+      "source": "analysis/t064/friend-boundary-source.png",
+      "threshold": 0.9
+    },
+    "friend_id_prefix": {
+      "template": "rotation/friend_id_prefix.png",
+      "box": [
+        0.515,
+        0.349,
+        0.61,
+        0.376
+      ],
+      "source": "analysis/t064/friend-header-source.png",
+      "threshold": 0.9
+    },
+    "avatar_yixian": {
+      "template": "rotation/avatar_yixian.png",
+      "box": [
+        0.035,
+        0.025,
+        0.113,
+        0.078
+      ],
+      "source": "analysis/t064/medic-panels-confirmed/member2-panel.png",
+      "threshold": 0.9
+    },
+    "city_full_name": {
+      "template": "rotation/city_full_name.png",
+      "box": [
+        0.86,
+        0.085,
+        1,
+        0.125
+      ],
+      "threshold": 0.9,
+      "source": "analysis/t064/map02-barrier.png: complete 襄阳城, not shared 襄阳 prefix"
+    },
+    "friend_offline_view": {
+      "template": "rotation/friend_offline_view.png",
+      "box": [
+        0.69,
+        0.23,
+        0.81,
+        0.31
+      ],
+      "threshold": 0.9,
+      "source": "analysis/t064/thirdgroup-friend-failed.png: offline first row view"
+    },
+    "notice_title": {
+      "template": "rotation/notice_title.png",
+      "box": [
+        0.36,
+        0.208,
+        0.64,
+        0.248
+      ],
+      "threshold": 0.94,
+      "source": "analysis/t064/name-city-gate-failed.png"
+    },
+    "notice_close": {
+      "template": "rotation/notice_close.png",
+      "box": [
+        0.81,
+        0.208,
+        0.89,
+        0.248
+      ],
+      "threshold": 0.94,
+      "source": "analysis/t064/name-city-gate-failed.png"
+    },
+    "disconnect_message": {
+      "template": "rotation/disconnect_message.png",
+      "threshold": 0.9,
+      "box": [
+        0.18,
+        0.38,
+        0.9,
+        0.5
+      ],
+      "source": "analysis/t064/retained-disconnect.png: disconnect_message"
+    },
+    "disconnect_x": {
+      "template": "rotation/disconnect_x.png",
+      "threshold": 0.9,
+      "box": [
+        0.79,
+        0.38,
+        0.9,
+        0.45
+      ],
+      "source": "analysis/t064/retained-disconnect.png: disconnect_x"
+    },
+    "map_city_edge": {
+      "template": "rotation/map_city_edge.png",
+      "box": [
+        0.6833333333333333,
+        0.3145833333333333,
+        0.7240740740740741,
+        0.36875
+      ],
+      "source": "analysis/t064/thief-panel-confirmed-2.png",
+      "threshold": 0.9,
+      "tap_offset": [
+        -0.025,
+        0
+      ]
+    },
+    "map_header": {
+      "template": "rotation/map_header.png",
+      "box": [
+        0.8518518518518519,
+        0.0,
+        1.0,
+        0.0625
+      ],
+      "source": "analysis/t064/stress30/map_failed_com.good.tianqian3npnpnp_1792811628691.png (540px; template scaled to 1080 basis)",
+      "threshold": 0.9
+    },
+    "map_close": {
+      "template": "rotation/map_close.png",
+      "box": [
+        0.9074074074074074,
+        0.9479166666666666,
+        0.9814814814814815,
+        0.9833333333333333
+      ],
+      "source": "analysis/t064/stress30/map_failed_com.good.tianqian3npnpnp_1792811628691.png (540px; template scaled to 1080 basis)",
+      "threshold": 0.9
+    },
+    "map_guide_blocked": {
+      "template": "rotation/map_guide_blocked.png",
+      "box": [
+        0.2962962962962963,
+        0.134375,
+        0.7037037037037037,
+        0.16354166666666667
+      ],
+      "source": "analysis/t064/map-open-second-tap.png: 请按指引进行操作 toast; observed after map-button tap",
+      "threshold": 0.9
+    },
+    "map_footer": {
+      "template": "rotation/map_footer.png",
+      "box": [
+        0.10185185185185185,
+        0.9479166666666666,
+        0.2962962962962963,
+        0.9895833333333334
+      ],
+      "threshold": 0.9,
+      "source": "analysis/t064/scatter10/round01-failed-map-header/failure-current.png bottom invariant scroll edge"
+    }
+  },
+  "selection_box": [
+    0.39,
+    0.76,
+    0.53,
+    0.82
+  ],
+  "selection_threshold": 0.9,
+  "world_map": {
+    "drag": [
+      0.2,
+      0.65,
+      0.85,
+      0.65
+    ],
+    "timeout_ms": 20000,
+    "max_drags": 5,
+    "source": "analysis/t064/thief-panel-confirmed-2.png",
+    "rule": "先右拖到最左端；标牌两侧独立匹配，头像可遮中间；新帧城名与街景确认后立即继续",
+    "open_attempts": 6,
+    "open_timeout_ms": 1500
+  },
+  "selection_layout": {
+    "slots": [
+      [
+        0.12,
+        0.43,
+        0.34,
+        0.57
+      ],
+      [
+        0.42,
+        0.43,
+        0.63,
+        0.57
+      ],
+      [
+        0.71,
+        0.43,
+        0.94,
+        0.57
+      ]
+    ],
+    "markers": [
+      [
+        0.12,
+        0.3,
+        0.34,
+        0.38
+      ],
+      [
+        0.42,
+        0.3,
+        0.63,
+        0.38
+      ],
+      [
+        0.71,
+        0.3,
+        0.94,
+        0.38
+      ]
+    ],
+    "faces": [
+      {
+        "name": "医仙",
+        "template": "rotation/slot_left.png"
+      },
+      {
+        "name": "神偷",
+        "template": "rotation/slot_right.png"
+      },
+      {
+        "name": "武圣",
+        "template": "rotation/slot_wusheng.png"
+      },
+      {
+        "name": "hood_variant",
+        "template": "rotation/slot_hood_variant.png",
+        "profession": "",
+        "source": "analysis/t064/member3-layout-failed.png; appearance token only, profession must come from selection and panel"
+      },
+      {
+        "name": "armor_variant",
+        "template": "rotation/slot_armor_variant.png",
+        "profession": "",
+        "source": "analysis/t064/member5-layout-failed.png; appearance only"
+      }
+    ],
+    "reorder_observed": "点侧边仅改选中箭头；进入并返回后左侧为交换、右侧为[旧中,旧右,旧左]",
+    "marker_template": "rotation/selection_marker_core.png",
+    "marker_source": "selection_marker.png interior [20,18,62,68], excludes portrait/background"
+  },
+  "roster_source": "analysis/t064/roster-initial-debug2.png white profession only, excludes level/name",
+  "selection_name_box": [
+    0.18,
+    0.74,
+    0.82,
+    0.775
+  ],
+  "roster_name_boxes": [
+    [
+      0.62,
+      0.242,
+      0.93,
+      0.278
+    ],
+    [
+      0.62,
+      0.385,
+      0.93,
+      0.421
+    ],
+    [
+      0.62,
+      0.528,
+      0.93,
+      0.564
+    ],
+    [
+      0.62,
+      0.67,
+      0.93,
+      0.706
+    ]
+  ],
+  "roster_name_source": "用户_my.png定位参考；仅我的队伍页签+四个踢出按钮可进入姓名核验",
+  "roster_name_threshold": 0.8,
+  "roster_recovery_margin": 0.05,
+  "roster_name_calibration": "用户允许较宽容姓名核验；现有跨页正最低.92795，错行/改单字负最高.61078，阈值.80",
+  "disconnect_recovery": {
+    "attempts": 2,
+    "login_timeout_ms": 8000,
+    "selection_timeout_ms": 15000,
+    "world_timeout_ms": 15000
+  },
+  "friend_tab_timeout_ms": 30000
+}

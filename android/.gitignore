@@ -1,0 +1,10 @@
+# Gradle 构建产物
+.gradle/
+build/
+build_out.txt
+
+# 本机绝对路径（含 SDK 位置），机器相关
+local.properties
+
+# 验收截图与临时产物（与根目录 _sim/ 同性质）
+_shots/

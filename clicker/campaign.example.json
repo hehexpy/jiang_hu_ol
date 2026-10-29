@@ -1,0 +1,173 @@
+{
+  "launch_timeout": 20,
+  "verify_timeout": 10,
+  "poll_interval": 0.5,
+  "between_apps": 1.0,
+  "actions": {
+    "occupy": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_open": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_红卫": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "confirm_红卫": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_明王": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "confirm_明王": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_巨盾": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "confirm_巨盾": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_page_2": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_方阵": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "confirm_方阵": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_轻骑": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "confirm_轻骑": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_侦查": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "confirm_侦查": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_page_3": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_狼骑": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "confirm_狼骑": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_重骑": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "confirm_重骑": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_投石": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "confirm_投石": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_page_4": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_弩车": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "confirm_弩车": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_长弓": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "confirm_长弓": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "recruit_close": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "attack_open": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "attack_target": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "attack_submit": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "defend_open": {
+      "button": null,
+      "before": null,
+      "after": null
+    },
+    "defend_submit": {
+      "button": null,
+      "before": null,
+      "after": null
+    }
+  }
+}

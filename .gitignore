@@ -1,0 +1,13 @@
+**/build/
+**/.gradle/
+**/__pycache__/
+*.pyc
+*.apk*
+*.log
+*.jsonl
+*.jks
+*.keystore
+*.pem
+.env*
+android/local.properties
+clicker/accounts.json

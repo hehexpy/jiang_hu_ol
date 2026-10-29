@@ -1,0 +1,57 @@
+plugins {
+    id 'com.android.application'
+    id 'com.chaquo.python'
+}
+
+android {
+    namespace 'com.jianghuol.helper'
+    compileSdk 35
+    buildFeatures { buildConfig true }
+
+    defaultConfig {
+        applicationId "com.jianghuol.helper"
+        minSdk 24
+        targetSdk 35
+        versionCode 6
+        versionName "0.5.0"
+        // Only a restricted upload credential; inject from the local secret store at build time.
+        buildConfigField "String", "SUPPORT_UPLOAD_TOKEN", groovy.json.JsonOutput.toJson(System.getenv("JH_UPLOAD_TOKEN") ?: "")
+        // Chaquopy 要求显式 abiFilters；模拟器 x86_64，真机 arm64-v8a
+        ndk { abiFilters "arm64-v8a", "x86_64" }
+    }
+
+    chaquopy {
+        defaultConfig {
+            buildPython "C:/Program Files/Python312/python.exe"
+            version "3.10"
+        }
+    }
+
+    buildTypes {
+        debug {
+            // 首版只跑 debug，不混淆，便于看堆栈
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    // 用系统自带的 zipalign，避免依赖外部 build-tools 版本差异
+    packaging {
+        resources {
+            excludes += ['META-INF/*.kotlin_module']
+        }
+    }
+}
+
+// 首版**零第三方依赖** —— 只用 Android framework。
+// 目的：构建最快、最不容易因依赖解析失败而卡住；日志/自检不需要任何库。
+dependencies {
+}

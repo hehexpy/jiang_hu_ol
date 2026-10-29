@@ -1,0 +1,5 @@
+// AGP 版本与本地 ~/.gradle/caches 中已有的保持一致，便于离线构建
+plugins {
+    id 'com.android.application' version '8.5.2' apply false
+    id 'com.chaquo.python' version '15.0.1' apply false
+}

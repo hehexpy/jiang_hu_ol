@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- 方孔铜钱：轮廓留在自适应图标安全区内。 -->
+    <path android:fillColor="#0A1915" android:pathData="M55,27a29,29 0,1 0,0 58a29,29 0,1 0,0 -58" />
+    <path android:fillColor="#DDAA50" android:fillType="evenOdd"
+        android:pathData="M54,25a29,29 0,1 0,0 58a29,29 0,1 0,0 -58M46,46h16v16h-16z" />
+    <path android:fillColor="#10251F" android:fillType="evenOdd"
+        android:pathData="M54,30a24,24 0,1 0,0 48a24,24 0,1 0,0 -48M54,32a22,22 0,1 1,0 44a22,22 0,1 1,0 -44" />
+    <path android:fillColor="#F7D692" android:pathData="M49,35h10v3h-10zM49,70h10v3h-10zM35,49h3v10h-3zM70,49h3v10h-3z" />
+</vector>

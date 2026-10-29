@@ -1,0 +1,308 @@
+{
+  "npc": {
+    "source": "clicker\\_sim\\t022\\01_city.png",
+    "box": [
+      0.3093,
+      0.2346,
+      0.6,
+      0.35
+    ]
+  },
+  "start": {
+    "source": "clicker\\_sim\\t022\\09_citywar.png",
+    "box": [
+      0.3296,
+      0.5846,
+      0.6796,
+      0.6197
+    ]
+  },
+  "header": {
+    "source": "clicker\\_sim\\t022\\10_citywar_start.png",
+    "box": [
+      0.3,
+      0.135,
+      0.7,
+      0.158
+    ]
+  },
+  "overview": {
+    "source": "clicker\\_sim\\t022\\10_citywar_start.png",
+    "box": [
+      0.05,
+      0.181,
+      0.2,
+      0.21
+    ]
+  },
+  "recruit_tab": {
+    "source": "clicker\\_sim\\t022\\10_citywar_start.png",
+    "box": [
+      0.4398,
+      0.1799,
+      0.5694,
+      0.2098
+    ]
+  },
+  "occupy_tab": {
+    "source": "clicker\\_sim\\t022\\20_my_troops.png",
+    "box": [
+      0.2593,
+      0.1799,
+      0.3796,
+      0.2107
+    ]
+  },
+  "recruit": {
+    "source": "clicker\\_sim\\t022\\11_recruit_p1.png",
+    "box": [
+      0.8,
+      0.4308,
+      0.9194,
+      0.4658
+    ]
+  },
+  "recruit_name": {
+    "source": "clicker\\_sim\\t022\\11_recruit_p1.png",
+    "box": [
+      0.3,
+      0.367,
+      0.68,
+      0.39
+    ]
+  },
+  "available": {
+    "source": "clicker\\_sim\\t022\\11_recruit_p1.png",
+    "box": [
+      0.735,
+      0.365,
+      0.875,
+      0.39
+    ]
+  },
+  "funds": {
+    "source": "clicker\\_sim\\t022\\11_recruit_p1.png",
+    "box": [
+      0.385,
+      0.228,
+      0.59,
+      0.266
+    ]
+  },
+  "my_troops": {
+    "source": "clicker\\_sim\\t022\\11_recruit_p1.png",
+    "box": [
+      0.6,
+      0.7308,
+      0.8398,
+      0.7688
+    ]
+  },
+  "recruit_list": {
+    "source": "clicker\\_sim\\t022\\20_my_troops.png",
+    "box": [
+      0.075,
+      0.73,
+      0.335,
+      0.768
+    ]
+  },
+  "recruit_confirm": {
+    "source": "clicker\\_sim\\t022\\12_recruit_dialog.png",
+    "box": [
+      0.075,
+      0.4,
+      0.925,
+      0.465
+    ]
+  },
+  "recruit_yes": {
+    "source": "clicker\\_sim\\t022\\12_recruit_dialog.png",
+    "box": [
+      0.12,
+      0.5547,
+      0.3694,
+      0.5906
+    ]
+  },
+  "confirm_title": {
+    "source": "clicker\\_sim\\t022\\12_recruit_dialog.png",
+    "box": [
+      0.39,
+      0.335,
+      0.61,
+      0.365
+    ]
+  },
+  "occupy_state": {
+    "source": "clicker\\_sim\\t022\\22_occupy.png",
+    "box": [
+      0.055,
+      0.36,
+      0.925,
+      0.39
+    ]
+  },
+  "city": {
+    "source": "clicker\\_sim\\t022\\22_occupy.png",
+    "box": [
+      0.11,
+      0.334,
+      0.205,
+      0.36
+    ]
+  },
+  "defend": {
+    "source": "clicker\\_sim\\t022\\22_occupy.png",
+    "box": [
+      0.8296,
+      0.3179,
+      0.95,
+      0.35
+    ]
+  },
+  "attack": {
+    "source": "clicker\\_sim\\t022\\22_occupy.png",
+    "box": [
+      0.8583,
+      0.5598,
+      0.9398,
+      0.6047
+    ]
+  },
+  "attack_target": {
+    "source": "clicker\\_sim\\t022\\22_occupy.png",
+    "box": [
+      0.055,
+      0.568,
+      0.365,
+      0.598
+    ]
+  },
+  "attack_target_alt1": {
+    "source": "clicker\\_sim\\t022\\25_occupy_return.png",
+    "box": [
+      0.055,
+      0.568,
+      0.365,
+      0.598
+    ]
+  },
+  "attack_target_alt2": {
+    "source": "clicker\\_sim\\t022\\32_occupy.png",
+    "box": [
+      0.055,
+      0.568,
+      0.365,
+      0.598
+    ]
+  },
+  "attack_confirm": {
+    "source": "clicker\\_sim\\t022\\26_attack_entry.png",
+    "box": [
+      0.115,
+      0.425,
+      0.91,
+      0.45
+    ]
+  },
+  "attack_yes": {
+    "source": "clicker\\_sim\\t022\\26_attack_entry.png",
+    "box": [
+      0.1194,
+      0.5547,
+      0.3694,
+      0.5906
+    ]
+  },
+  "closed": {
+    "source": "clicker\\_sim\\t022\\28_defend_entry.png",
+    "box": [
+      0.28,
+      0.43,
+      0.73,
+      0.457
+    ]
+  },
+  "army_limit": {
+    "source": "clicker\\_sim\\t027\\20261018_171523_591934\\_024_recruit_response.png",
+    "box": [
+      0.21,
+      0.43,
+      0.79,
+      0.457
+    ]
+  },
+  "error_title": {
+    "source": "clicker\\_sim\\t022\\28_defend_entry.png",
+    "box": [
+      0.46,
+      0.395,
+      0.55,
+      0.418
+    ]
+  },
+  "close_error": {
+    "source": "clicker\\_sim\\t022\\28_defend_entry.png",
+    "box": [
+      0.82,
+      0.393,
+      0.88,
+      0.421
+    ]
+  },
+  "page_1": {
+    "source": "clicker\\_sim\\t022\\20_my_troops.png",
+    "box": [
+      0.465,
+      0.77,
+      0.57,
+      0.79
+    ]
+  },
+  "page_2": {
+    "source": "clicker\\_sim\\t022\\21_my_troops_p2.png",
+    "box": [
+      0.465,
+      0.77,
+      0.57,
+      0.79
+    ]
+  },
+  "next": {
+    "source": "clicker\\_sim\\t022\\20_my_troops.png",
+    "box": [
+      0.68,
+      0.773,
+      0.72,
+      0.797
+    ]
+  },
+  "prev": {
+    "source": "clicker\\_sim\\t022\\21_my_troops_p2.png",
+    "box": [
+      0.29,
+      0.773,
+      0.335,
+      0.797
+    ]
+  },
+  "rest": {
+    "source": "clicker\\_sim\\t022\\20_my_troops.png",
+    "box": [
+      0.43,
+      0.43,
+      0.565,
+      0.461
+    ]
+  },
+  "owned_red": {
+    "source": "clicker\\_sim\\t022\\20_my_troops.png",
+    "box": [
+      0.31,
+      0.486,
+      0.7,
+      0.51
+    ]
+  }
+}

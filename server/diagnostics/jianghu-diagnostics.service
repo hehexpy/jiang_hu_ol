@@ -1,0 +1,24 @@
+[Unit]
+Description=JiangHu private diagnostic report receiver
+After=network.target
+
+[Service]
+Type=simple
+User=jianghu-diag
+Group=jianghu-diag
+EnvironmentFile=/etc/jianghu-diagnostics.env
+ExecStart=/usr/bin/python3 /opt/jianghu-diagnostics/app.py
+Restart=on-failure
+RestartSec=3
+StateDirectory=jianghu-diagnostics
+StateDirectoryMode=0700
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+MemoryMax=192M
+TasksMax=32
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

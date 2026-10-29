@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">江湖OL助手</string>
+    <string name="acc_label">江湖助手·手势</string>
+    <string name="acc_desc">代替你在游戏里点击、滑动。所有点击只由你按「一键上号」触发。</string>
+</resources>

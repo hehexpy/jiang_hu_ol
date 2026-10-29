@@ -1,0 +1,7010 @@
+{
+  "tracker_yudang_white": {
+    "template": "farm/tracker_yudang_white.png",
+    "box": [
+      0.6351851851851852,
+      0.23,
+      0.7777777777777778,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task",
+    "alternates": [
+      "tracker_yudang_second_live",
+      "tracker_yudang_selected"
+    ]
+  },
+  "tracker_yudang_green": {
+    "template": "farm/tracker_yudang_green.png",
+    "box": [
+      0.6351851851851852,
+      0.23,
+      0.7777777777777778,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task",
+    "alternates": [
+      "tracker_yudang_second_live",
+      "tracker_yudang_selected"
+    ]
+  },
+  "farm_npc": {
+    "template": "farm/farm_npc.png",
+    "box": [
+      0.2851851851851852,
+      0.5145833333333333,
+      0.4666666666666667,
+      0.5427083333333333
+    ],
+    "threshold": 0.9
+  },
+  "world_bag": {
+    "template": "farm/world_bag.png",
+    "box": [
+      0.6907407407407408,
+      0.9572916666666667,
+      0.8148148148148148,
+      0.9927083333333333
+    ],
+    "threshold": 0.9
+  },
+  "battle_coin": {
+    "template": "farm/battle_coin.png",
+    "box": [
+      0.7703703703703704,
+      0.008333333333333333,
+      0.8388888888888889,
+      0.041666666666666664
+    ],
+    "threshold": 0.94
+  },
+  "battle_chest": {
+    "template": "farm/battle_chest.png",
+    "box": [
+      0.7666666666666667,
+      0.04479166666666667,
+      0.8481481481481481,
+      0.08645833333333333
+    ],
+    "threshold": 0.94
+  },
+  "battle_escape": {
+    "template": "farm/battle_escape.png",
+    "box": [
+      0.8796296296296297,
+      0.9666666666666667,
+      0.9981481481481481,
+      0.9958333333333333
+    ],
+    "threshold": 0.94
+  },
+  "victory": {
+    "template": "farm/victory.png",
+    "box": [
+      0.3314814814814815,
+      0.23958333333333334,
+      0.6703703703703704,
+      0.35
+    ],
+    "threshold": 0.94
+  },
+  "exit_battle": {
+    "template": "farm/exit_battle.png",
+    "box": [
+      0.6203703703703703,
+      0.671875,
+      0.85,
+      0.709375
+    ],
+    "threshold": 0.94
+  },
+  "title_yudang": {
+    "template": "farm/title_yudang.png",
+    "box": [
+      0.42962962962962964,
+      0.221875,
+      0.5962962962962963,
+      0.25
+    ],
+    "threshold": 0.94
+  },
+  "finish_risk": {
+    "template": "farm/finish_risk.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.94
+  },
+  "accept_risk": {
+    "template": "farm/accept_risk.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.94
+  },
+  "quest_close": {
+    "template": "farm/quest_close.png",
+    "box": [
+      0.8907407407407407,
+      0.22083333333333333,
+      0.9462962962962963,
+      0.25416666666666665
+    ],
+    "threshold": 0.94
+  },
+  "bag_close": {
+    "template": "farm/bag_close.png",
+    "box": [
+      0.9203703703703704,
+      0.08854166666666667,
+      0.9740740740740741,
+      0.12083333333333333
+    ],
+    "threshold": 0.94
+  },
+  "reward_title": {
+    "template": "farm/reward_title.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.94
+  },
+  "pre_title_00": {
+    "template": "farm/pre_title_00.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_00": {
+    "template": "farm/pre_action_00.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_01": {
+    "template": "farm/pre_tracker_01.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_01": {
+    "template": "farm/pre_map_01.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_01": {
+    "template": "farm/pre_action_01.png",
+    "box": [
+      0.45925925925925926,
+      0.7145833333333333,
+      0.6351851851851852,
+      0.7427083333333333
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_02": {
+    "template": "farm/pre_tracker_02.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_02": {
+    "template": "farm/pre_map_02.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_02": {
+    "template": "farm/pre_action_02.png",
+    "box": [
+      0.7796296296296297,
+      0.6989583333333333,
+      0.8685185185185185,
+      0.7260416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_03": {
+    "template": "farm/pre_title_03.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_03": {
+    "template": "farm/pre_action_03.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_04": {
+    "template": "farm/pre_title_04.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_04": {
+    "template": "farm/pre_action_04.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_05": {
+    "template": "farm/pre_tracker_05.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_05": {
+    "template": "farm/pre_map_05.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_05": {
+    "template": "farm/pre_action_05.png",
+    "box": [
+      0.30925925925925923,
+      0.653125,
+      0.4444444444444444,
+      0.6833333333333333
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_06": {
+    "template": "farm/pre_tracker_06.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_06": {
+    "template": "farm/pre_map_06.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_06": {
+    "template": "farm/pre_action_06.png",
+    "box": [
+      0.7796296296296297,
+      0.6989583333333333,
+      0.8685185185185185,
+      0.7260416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_07": {
+    "template": "farm/pre_title_07.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_07": {
+    "template": "farm/pre_action_07.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_08": {
+    "template": "farm/pre_title_08.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_08": {
+    "template": "farm/pre_action_08.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_09": {
+    "template": "farm/pre_tracker_09.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_09": {
+    "template": "farm/pre_map_09.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_09": {
+    "template": "farm/pre_action_09.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_10": {
+    "template": "farm/pre_tracker_10.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_10": {
+    "template": "farm/pre_map_10.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_10": {
+    "template": "farm/pre_action_10.png",
+    "box": [
+      0.45925925925925926,
+      0.7145833333333333,
+      0.6351851851851852,
+      0.7427083333333333
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_11": {
+    "template": "farm/pre_title_11.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_11": {
+    "template": "farm/pre_action_11.png",
+    "box": [
+      0.15,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_12": {
+    "template": "farm/pre_tracker_12.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_12": {
+    "template": "farm/pre_map_12.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_12": {
+    "template": "farm/pre_action_12.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_13": {
+    "template": "farm/pre_title_13.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_13": {
+    "template": "farm/pre_action_13.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_14": {
+    "template": "farm/pre_tracker_14.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_14": {
+    "template": "farm/pre_map_14.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_14": {
+    "template": "farm/pre_action_14.png",
+    "box": [
+      0.30925925925925923,
+      0.653125,
+      0.4444444444444444,
+      0.6833333333333333
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_15": {
+    "template": "farm/pre_tracker_15.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_15": {
+    "template": "farm/pre_map_15.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_15": {
+    "template": "farm/pre_action_15.png",
+    "box": [
+      0.15,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_16": {
+    "template": "farm/pre_title_16.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_16": {
+    "template": "farm/pre_action_16.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_17": {
+    "template": "farm/pre_tracker_17.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_17": {
+    "template": "farm/pre_map_17.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_17": {
+    "template": "farm/pre_action_17.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_18": {
+    "template": "farm/pre_title_18.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_18": {
+    "template": "farm/pre_action_18.png",
+    "box": [
+      0.6333333333333333,
+      0.23,
+      0.9685185185185186,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_tracker_19": {
+    "template": "farm/pre_tracker_19.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_19": {
+    "template": "farm/pre_map_19.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_19": {
+    "template": "farm/pre_action_19.png",
+    "box": [
+      0.016666666666666666,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_20": {
+    "template": "farm/pre_title_20.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_20": {
+    "template": "farm/pre_action_20.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_21": {
+    "template": "farm/pre_title_21.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_21": {
+    "template": "farm/pre_action_21.png",
+    "box": [
+      0.15,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_22": {
+    "template": "farm/pre_tracker_22.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_22": {
+    "template": "farm/pre_map_22.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_22": {
+    "template": "farm/pre_action_22.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_23": {
+    "template": "farm/pre_title_23.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_23": {
+    "template": "farm/pre_action_23.png",
+    "box": [
+      0.6314814814814815,
+      0.23,
+      0.9685185185185186,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_tracker_24": {
+    "template": "farm/pre_tracker_24.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_24": {
+    "template": "farm/pre_map_24.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_24": {
+    "template": "farm/pre_action_24.png",
+    "box": [
+      0.15,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_25": {
+    "template": "farm/pre_title_25.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_25": {
+    "template": "farm/pre_action_25.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_follow_title_26": {
+    "template": "farm/pre_follow_title_26.png",
+    "box": [
+      0.37962962962962965,
+      0.3,
+      0.6462962962962963,
+      0.32916666666666666
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_26": {
+    "template": "farm/pre_action_11.png",
+    "box": [
+      0.15,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9,
+    "alternates": [
+      "npc_wu_live02"
+    ]
+  },
+  "pre_tracker_27": {
+    "template": "farm/pre_tracker_27.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_27": {
+    "template": "farm/pre_map_27.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_27": {
+    "template": "farm/pre_action_27.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_28": {
+    "template": "farm/pre_title_28.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_28": {
+    "template": "farm/pre_action_28.png",
+    "box": [
+      0.15,
+      0.28541666666666665,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_29": {
+    "template": "farm/pre_reward_title_29.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_29": {
+    "template": "farm/pre_action_29.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_30": {
+    "template": "farm/pre_reward_title_30.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_30": {
+    "template": "farm/pre_action_30.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_31": {
+    "template": "farm/pre_reward_title_31.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_31": {
+    "template": "farm/pre_action_31.png",
+    "box": [
+      0.15,
+      0.28541666666666665,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_32": {
+    "template": "farm/pre_reward_title_32.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_32": {
+    "template": "farm/pre_action_32.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_33": {
+    "template": "farm/pre_tracker_33.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "new_task"
+  },
+  "pre_map_33": {
+    "template": "farm/pre_map_33.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_33": {
+    "template": "farm/pre_action_33.png",
+    "box": [
+      0.016666666666666666,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_34": {
+    "template": "farm/pre_title_34.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_34": {
+    "template": "farm/pre_action_34.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_follow_title_35": {
+    "template": "farm/pre_follow_title_35.png",
+    "box": [
+      0.37962962962962965,
+      0.3,
+      0.6462962962962963,
+      0.32916666666666666
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_35": {
+    "template": "farm/pre_action_35.png",
+    "box": [
+      0.45,
+      0.64375,
+      0.5518518518518518,
+      0.671875
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_36": {
+    "template": "farm/pre_tracker_36.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_36": {
+    "template": "farm/pre_map_36.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_36": {
+    "template": "farm/pre_action_36.png",
+    "box": [
+      0.15,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_37": {
+    "template": "farm/pre_title_37.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_37": {
+    "template": "farm/pre_action_37.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_38": {
+    "template": "farm/pre_tracker_38.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_38": {
+    "template": "farm/pre_map_38.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_38": {
+    "template": "farm/pre_action_38.png",
+    "box": [
+      0.3425925925925926,
+      0.45208333333333334,
+      0.44074074074074077,
+      0.4791666666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_39": {
+    "template": "farm/pre_title_39.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_39": {
+    "template": "farm/pre_action_39.png",
+    "box": [
+      0.6685185185185185,
+      0.6114583333333333,
+      0.8462962962962963,
+      0.640625
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_40": {
+    "template": "farm/pre_tracker_40.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_40": {
+    "template": "farm/pre_map_40.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_40": {
+    "template": "farm/pre_action_40.png",
+    "box": [
+      0.8222222222222222,
+      0.4010416666666667,
+      0.8777777777777778,
+      0.43333333333333335
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_41": {
+    "template": "farm/pre_title_41.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_41": {
+    "template": "farm/pre_action_41.png",
+    "box": [
+      0.8796296296296297,
+      0.09375,
+      0.937037037037037,
+      0.12291666666666666
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_42": {
+    "template": "farm/pre_title_42.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_42": {
+    "template": "farm/pre_action_42.png",
+    "box": [
+      0.1037037037037037,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_43": {
+    "template": "farm/pre_tracker_43.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_43": {
+    "template": "farm/pre_map_43.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_43": {
+    "template": "farm/pre_action_43.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_44": {
+    "template": "farm/pre_tracker_44.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_44": {
+    "template": "farm/pre_map_44.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_44": {
+    "template": "farm/pre_action_44.png",
+    "box": [
+      0.45,
+      0.64375,
+      0.5518518518518518,
+      0.671875
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_45": {
+    "template": "farm/pre_title_45.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_45": {
+    "template": "farm/pre_action_45.png",
+    "box": [
+      0.15,
+      0.26875,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_46": {
+    "template": "farm/pre_title_46.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_46": {
+    "template": "farm/pre_action_46.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_47": {
+    "template": "farm/pre_tracker_47.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "new_task"
+  },
+  "pre_map_47": {
+    "template": "farm/pre_map_47.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_47": {
+    "template": "farm/pre_action_47.png",
+    "box": [
+      0.15,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_48": {
+    "template": "farm/pre_tracker_48.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_48": {
+    "template": "farm/pre_map_48.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_48": {
+    "template": "farm/pre_action_48.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_49": {
+    "template": "farm/pre_title_49.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_49": {
+    "template": "farm/pre_action_49.png",
+    "box": [
+      0.15,
+      0.26875,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_50": {
+    "template": "farm/pre_tracker_50.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_50": {
+    "template": "farm/pre_map_50.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_50": {
+    "template": "farm/pre_action_50.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_51": {
+    "template": "farm/pre_title_51.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_51": {
+    "template": "farm/pre_action_51.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_52": {
+    "template": "farm/pre_tracker_52.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_52": {
+    "template": "farm/pre_map_52.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_52": {
+    "template": "farm/pre_action_52.png",
+    "box": [
+      0.837037037037037,
+      0.553125,
+      0.9981481481481481,
+      0.5833333333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_53": {
+    "template": "farm/pre_title_53.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_53": {
+    "template": "farm/pre_action_53.png",
+    "box": [
+      0.15,
+      0.26875,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_54": {
+    "template": "farm/pre_tracker_54.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_54": {
+    "template": "farm/pre_map_54.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_54": {
+    "template": "farm/pre_action_54.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_55": {
+    "template": "farm/pre_title_55.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_55": {
+    "template": "farm/pre_action_55.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_56": {
+    "template": "farm/pre_tracker_56.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_56": {
+    "template": "farm/pre_map_56.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_56": {
+    "template": "farm/pre_action_56.png",
+    "box": [
+      0.053703703703703705,
+      0.5395833333333333,
+      0.2388888888888889,
+      0.5666666666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_57": {
+    "template": "farm/pre_tracker_57.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_57": {
+    "template": "farm/pre_map_57.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_57": {
+    "template": "farm/pre_action_57.png",
+    "box": [
+      0.15,
+      0.26875,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_58": {
+    "template": "farm/pre_title_58.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_58": {
+    "template": "farm/pre_action_58.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_59": {
+    "template": "farm/pre_title_59.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_59": {
+    "template": "farm/pre_action_59.png",
+    "box": [
+      0.15,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_60": {
+    "template": "farm/pre_tracker_60.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_60": {
+    "template": "farm/pre_map_60.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_60": {
+    "template": "farm/pre_action_60.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_61": {
+    "template": "farm/pre_title_61.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_61": {
+    "template": "farm/pre_action_61.png",
+    "box": [
+      0.15,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_62": {
+    "template": "farm/pre_title_62.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_62": {
+    "template": "farm/pre_action_62.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_63": {
+    "template": "farm/pre_tracker_63.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "new_task"
+  },
+  "pre_map_63": {
+    "template": "farm/pre_map_63.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_63": {
+    "template": "farm/pre_action_63.png",
+    "box": [
+      0.15,
+      0.26875,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_64": {
+    "template": "farm/pre_title_64.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_64": {
+    "template": "farm/pre_action_64.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_65": {
+    "template": "farm/pre_reward_title_65.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_65": {
+    "template": "farm/pre_action_65.png",
+    "box": [
+      0.5462962962962963,
+      0.4979166666666667,
+      0.7703703703703704,
+      0.5270833333333333
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_66": {
+    "template": "farm/pre_reward_title_66.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_66": {
+    "template": "farm/pre_action_66.png",
+    "box": [
+      0.15,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_67": {
+    "template": "farm/pre_reward_title_67.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_67": {
+    "template": "farm/pre_action_67.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_68": {
+    "template": "farm/pre_reward_title_68.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_68": {
+    "template": "farm/pre_action_68.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_69": {
+    "template": "farm/pre_tracker_69.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_69": {
+    "template": "farm/pre_map_69.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_69": {
+    "template": "farm/pre_action_69.png",
+    "box": [
+      0.15,
+      0.26875,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_70": {
+    "template": "farm/pre_title_70.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_70": {
+    "template": "farm/pre_action_70.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_follow_title_71": {
+    "template": "farm/pre_follow_title_71.png",
+    "box": [
+      0.37962962962962965,
+      0.3,
+      0.6462962962962963,
+      0.32916666666666666
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_71": {
+    "template": "farm/pre_action_71.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_72": {
+    "template": "farm/pre_tracker_72.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_72": {
+    "template": "farm/pre_map_72.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_72": {
+    "template": "farm/pre_action_72.png",
+    "box": [
+      0.15,
+      0.26875,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_73": {
+    "template": "farm/pre_title_73.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_73": {
+    "template": "farm/pre_action_73.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_74": {
+    "template": "farm/pre_reward_title_74.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_74": {
+    "template": "farm/pre_action_74.png",
+    "box": [
+      0.3425925925925926,
+      0.45208333333333334,
+      0.44074074074074077,
+      0.4791666666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_75": {
+    "template": "farm/pre_reward_title_75.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_75": {
+    "template": "farm/pre_action_75.png",
+    "box": [
+      0.6685185185185185,
+      0.6114583333333333,
+      0.8462962962962963,
+      0.640625
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_76": {
+    "template": "farm/pre_reward_title_76.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_76": {
+    "template": "farm/pre_action_76.png",
+    "box": [
+      0.8222222222222222,
+      0.4010416666666667,
+      0.8777777777777778,
+      0.43333333333333335
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_77": {
+    "template": "farm/pre_reward_title_77.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_77": {
+    "template": "farm/pre_action_77.png",
+    "box": [
+      0.8796296296296297,
+      0.09375,
+      0.937037037037037,
+      0.12291666666666666
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_78": {
+    "template": "farm/pre_tracker_78.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "new_task"
+  },
+  "pre_map_78": {
+    "template": "farm/pre_map_78.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_78": {
+    "template": "farm/pre_action_78.png",
+    "box": [
+      0.15,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_intro_title_79": {
+    "template": "farm/pre_intro_title_79.png",
+    "box": [
+      0.3851851851851852,
+      0.3,
+      0.6407407407407407,
+      0.32708333333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_79": {
+    "template": "farm/pre_action_79.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_80": {
+    "template": "farm/pre_title_80.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_80": {
+    "template": "farm/pre_action_80.png",
+    "box": [
+      0.45,
+      0.64375,
+      0.5518518518518518,
+      0.671875
+    ],
+    "threshold": 0.9
+  },
+  "pre_follow_title_81": {
+    "template": "farm/pre_follow_title_81.png",
+    "box": [
+      0.37962962962962965,
+      0.3,
+      0.6462962962962963,
+      0.32916666666666666
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_81": {
+    "template": "farm/pre_action_81.png",
+    "box": [
+      0.1037037037037037,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_82": {
+    "template": "farm/pre_tracker_82.png",
+    "box": [
+      0.6296296296296297,
+      0.23125,
+      0.9796296296296296,
+      0.26875
+    ],
+    "threshold": 0.9
+  },
+  "pre_map_82": {
+    "template": "farm/pre_map_82.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_82": {
+    "template": "farm/pre_action_82.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_83": {
+    "template": "farm/pre_title_83.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_83": {
+    "template": "farm/pre_action_83.png",
+    "box": [
+      0.3425925925925926,
+      0.45208333333333334,
+      0.44074074074074077,
+      0.4791666666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_84": {
+    "template": "farm/pre_title_84.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_84": {
+    "template": "farm/pre_action_84.png",
+    "box": [
+      0.6685185185185185,
+      0.6114583333333333,
+      0.8462962962962963,
+      0.640625
+    ],
+    "threshold": 0.9
+  },
+  "discover_world_tasks": {
+    "template": "farm/discover_world_tasks.png",
+    "box": [
+      0.011111111111111112,
+      0.9552083333333333,
+      0.1388888888888889,
+      0.9927083333333333
+    ],
+    "threshold": 0.9
+  },
+  "discover_tasks_available": {
+    "template": "farm/discover_tasks_available.png",
+    "box": [
+      0.26851851851851855,
+      0.14895833333333333,
+      0.45555555555555555,
+      0.17708333333333334
+    ],
+    "threshold": 0.9
+  },
+  "discover_tasks_close": {
+    "template": "farm/discover_tasks_close.png",
+    "box": [
+      0.9203703703703704,
+      0.08854166666666667,
+      0.9740740740740741,
+      0.12083333333333333
+    ],
+    "threshold": 0.9
+  },
+  "discover_quest_close": {
+    "template": "farm/discover_quest_close.png",
+    "box": [
+      0.8907407407407407,
+      0.22083333333333333,
+      0.9462962962962963,
+      0.25416666666666665
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_escape": {
+    "template": "farm/discover_follow_escape.png",
+    "box": [
+      0.45,
+      0.64375,
+      0.5518518518518518,
+      0.671875
+    ],
+    "threshold": 0.9
+  },
+  "discover_list_title": {
+    "template": "farm/discover_list_title.png",
+    "box": [
+      0.4203703703703704,
+      0.08958333333333333,
+      0.5796296296296296,
+      0.12083333333333333
+    ],
+    "threshold": 0.9
+  },
+  "discover_accepted": {
+    "template": "farm/discover_accepted.png",
+    "box": [
+      0.05555555555555555,
+      0.14895833333333333,
+      0.2388888888888889,
+      0.17708333333333334
+    ],
+    "threshold": 0.94
+  },
+  "discover_available_idle": {
+    "template": "farm/discover_available_idle.png",
+    "box": [
+      0.26851851851851855,
+      0.14895833333333333,
+      0.45555555555555555,
+      0.17708333333333334
+    ],
+    "threshold": 0.94
+  },
+  "discover_trace": {
+    "template": "farm/discover_trace.png",
+    "box": [
+      0.7962962962962963,
+      0.8354166666666667,
+      0.9037037037037037,
+      0.871875
+    ],
+    "threshold": 0.9
+  },
+  "discover_chapter_8": {
+    "template": "farm/discover_chapter_8.png",
+    "box": [
+      0.049,
+      0.192,
+      0.19,
+      0.892
+    ],
+    "threshold": 0.94
+  },
+  "discover_chapter_7": {
+    "template": "farm/discover_chapter_7.png",
+    "box": [
+      0.049,
+      0.192,
+      0.19,
+      0.892
+    ],
+    "threshold": 0.94
+  },
+  "discover_chapter_6": {
+    "template": "farm/discover_chapter_6.png",
+    "box": [
+      0.049,
+      0.192,
+      0.19,
+      0.892
+    ],
+    "threshold": 0.94,
+    "alternates": [
+      "discover_chapter_6_accepted"
+    ]
+  },
+  "discover_giver_risk": {
+    "template": "farm/discover_giver_risk.png",
+    "box": [
+      0.7796296296296297,
+      0.6989583333333333,
+      0.8685185185185185,
+      0.7260416666666667
+    ],
+    "threshold": 0.9
+  },
+  "discover_map_risk": {
+    "template": "farm/discover_map_risk.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_scare": {
+    "template": "farm/discover_giver_scare.png",
+    "box": [
+      0.7796296296296297,
+      0.6989583333333333,
+      0.8685185185185185,
+      0.7260416666666667
+    ],
+    "threshold": 0.9
+  },
+  "discover_map_scare": {
+    "template": "farm/discover_map_scare.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_opportunity": {
+    "template": "farm/discover_giver_opportunity.png",
+    "box": [
+      0.7796296296296297,
+      0.6989583333333333,
+      0.8685185185185185,
+      0.7260416666666667
+    ],
+    "threshold": 0.9
+  },
+  "discover_map_opportunity": {
+    "template": "farm/discover_map_opportunity.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_exposed": {
+    "template": "farm/discover_giver_exposed.png",
+    "box": [
+      0.48703703703703705,
+      0.5510416666666667,
+      0.6148148148148148,
+      0.5770833333333333
+    ],
+    "threshold": 0.9,
+    "alternates": [
+      "pre_action_21"
+    ]
+  },
+  "discover_map_exposed": {
+    "template": "farm/discover_map_exposed.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_clear": {
+    "template": "farm/discover_giver_clear.png",
+    "box": [
+      0.7796296296296297,
+      0.6989583333333333,
+      0.8685185185185185,
+      0.7260416666666667
+    ],
+    "threshold": 0.9,
+    "alternates": [
+      "pre_action_26",
+      "npc_wu_live02"
+    ]
+  },
+  "discover_map_clear": {
+    "template": "farm/discover_map_clear.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_trap": {
+    "template": "farm/discover_giver_trap.png",
+    "box": [
+      0.2611111111111111,
+      0.28541666666666665,
+      0.48518518518518516,
+      0.3145833333333333
+    ],
+    "threshold": 0.9
+  },
+  "discover_map_trap": {
+    "template": "farm/discover_map_trap.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_escape": {
+    "template": "farm/discover_giver_escape.png",
+    "box": [
+      0.016666666666666666,
+      0.590625,
+      0.22777777777777777,
+      0.6197916666666666
+    ],
+    "threshold": 0.9,
+    "alternates": [
+      "pre_action_33"
+    ]
+  },
+  "discover_map_escape": {
+    "template": "farm/discover_map_escape.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_trouble": {
+    "template": "farm/discover_giver_trouble.png",
+    "box": [
+      0.1037037037037037,
+      0.50625,
+      0.3425925925925926,
+      0.5354166666666667
+    ],
+    "threshold": 0.9,
+    "alternates": [
+      "pre_action_42"
+    ]
+  },
+  "discover_map_trouble": {
+    "template": "farm/discover_map_trouble.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_feast": {
+    "template": "farm/discover_giver_feast.png",
+    "box": [
+      0.39444444444444443,
+      0.6354166666666666,
+      0.6351851851851852,
+      0.665625
+    ],
+    "threshold": 0.9,
+    "alternates": [
+      "pre_action_47"
+    ]
+  },
+  "discover_map_feast": {
+    "template": "farm/discover_map_feast.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_borrowed": {
+    "template": "farm/discover_giver_borrowed.png",
+    "box": [
+      0.25925925925925924,
+      0.26875,
+      0.43333333333333335,
+      0.29270833333333335
+    ],
+    "threshold": 0.9
+  },
+  "discover_map_borrowed": {
+    "template": "farm/discover_map_borrowed.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_strong": {
+    "template": "farm/discover_giver_strong.png",
+    "box": [
+      0.25925925925925924,
+      0.26875,
+      0.43333333333333335,
+      0.29270833333333335
+    ],
+    "threshold": 0.9
+  },
+  "discover_map_strong": {
+    "template": "farm/discover_map_strong.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_sun": {
+    "template": "farm/discover_giver_sun.png",
+    "box": [
+      0.25555555555555554,
+      0.5635416666666667,
+      0.3962962962962963,
+      0.5895833333333333
+    ],
+    "threshold": 0.9,
+    "alternates": [
+      "pre_action_59"
+    ]
+  },
+  "discover_map_sun": {
+    "template": "farm/discover_map_sun.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_struggle": {
+    "template": "farm/discover_giver_struggle.png",
+    "box": [
+      0.25925925925925924,
+      0.26875,
+      0.43333333333333335,
+      0.29270833333333335
+    ],
+    "threshold": 0.9,
+    "alternates": [
+      "pre_action_63"
+    ]
+  },
+  "discover_map_struggle": {
+    "template": "farm/discover_map_struggle.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_gamble": {
+    "template": "farm/discover_giver_gamble.png",
+    "box": [
+      0.39444444444444443,
+      0.6354166666666666,
+      0.6351851851851852,
+      0.665625
+    ],
+    "threshold": 0.9
+  },
+  "discover_map_gamble": {
+    "template": "farm/discover_map_gamble.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_kill_lord": {
+    "template": "farm/discover_giver_kill_lord.png",
+    "box": [
+      0.25925925925925924,
+      0.26875,
+      0.43333333333333335,
+      0.29270833333333335
+    ],
+    "threshold": 0.9
+  },
+  "discover_map_kill_lord": {
+    "template": "farm/discover_map_kill_lord.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_finale": {
+    "template": "farm/discover_giver_finale.png",
+    "box": [
+      0.39444444444444443,
+      0.6354166666666666,
+      0.6351851851851852,
+      0.665625
+    ],
+    "threshold": 0.9,
+    "alternates": [
+      "pre_action_78"
+    ]
+  },
+  "discover_map_finale": {
+    "template": "farm/discover_map_finale.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_storm": {
+    "template": "farm/discover_giver_storm.png",
+    "box": [
+      0.1037037037037037,
+      0.50625,
+      0.3425925925925926,
+      0.5354166666666667
+    ],
+    "threshold": 0.9
+  },
+  "discover_map_storm": {
+    "template": "farm/discover_map_storm.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_yudang": {
+    "template": "farm/discover_giver_yudang.png",
+    "box": [
+      0.8296296296296296,
+      0.5708333333333333,
+      0.9259259259259259,
+      0.596875
+    ],
+    "threshold": 0.9
+  },
+  "discover_map_yudang": {
+    "template": "farm/discover_map_yudang.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "_discovery": {
+    "navigation": [
+      {
+        "title": "early_title_accept_intro",
+        "follow_title": "discover_follow_title_intro",
+        "giver": "discover_giver_intro",
+        "map": "discover_map_intro",
+        "offset": [
+          0,
+          0
+        ],
+        "name": "intro",
+        "row_title": "discover_row_glyph_intro",
+        "detail_title": "discover_detail_title_intro",
+        "tracked_title": "early_tracker_npc_wu_intro"
+      },
+      {
+        "title": "early_title_accept_infiltrate",
+        "follow_title": "discover_follow_title_infiltrate",
+        "giver": "discover_giver_infiltrate",
+        "map": "discover_map_infiltrate",
+        "offset": [
+          0,
+          0
+        ],
+        "name": "infiltrate",
+        "detail_title": "discover_detail_title_infiltrate",
+        "row_title": "discover_row_glyph_infiltrate",
+        "tracked_title": "early_tracker_enemy_infiltrate"
+      },
+      {
+        "title": "pre_title_09",
+        "follow_title": "discover_follow_title_risk",
+        "giver": "discover_giver_risk",
+        "map": "discover_map_risk",
+        "offset": [
+          0,
+          0
+        ],
+        "name": "risk",
+        "detail_title": "discover_detail_title_risk",
+        "row_title": "discover_row_glyph_risk",
+        "tracked_title": "pre_tracker_10"
+      },
+      {
+        "title": "pre_title_13",
+        "follow_title": "discover_follow_title_scare",
+        "giver": "discover_giver_scare",
+        "map": "discover_map_scare",
+        "offset": [
+          0,
+          0
+        ],
+        "name": "scare",
+        "detail_title": "discover_detail_title_scare",
+        "row_title": "discover_row_glyph_scare",
+        "tracked_title": "pre_tracker_14"
+      },
+      {
+        "title": "pre_title_17",
+        "follow_title": "discover_follow_title_opportunity",
+        "giver": "discover_giver_opportunity",
+        "map": "discover_map_opportunity",
+        "offset": [
+          0,
+          0
+        ],
+        "name": "opportunity",
+        "detail_title": "discover_detail_title_opportunity",
+        "row_title": "discover_row_glyph_opportunity",
+        "tracked_title": "pre_tracker_18"
+      },
+      {
+        "title": "pre_title_22",
+        "follow_title": "discover_follow_title_exposed",
+        "giver": "discover_giver_exposed",
+        "map": "discover_map_exposed",
+        "offset": [
+          0,
+          0.05
+        ],
+        "name": "exposed",
+        "detail_title": "discover_detail_title_exposed",
+        "row_title": "discover_row_glyph_exposed",
+        "tracked_title": "pre_tracker_23"
+      },
+      {
+        "title": "pre_title_27",
+        "follow_title": "discover_follow_title_clear",
+        "giver": "discover_giver_clear",
+        "map": "discover_map_clear",
+        "offset": [
+          0,
+          0
+        ],
+        "name": "clear",
+        "detail_title": "discover_detail_title_clear",
+        "row_title": "discover_row_glyph_clear",
+        "tracked_title": "pre_tracker_28"
+      },
+      {
+        "title": "pre_title_30",
+        "follow_title": "discover_follow_title_trap",
+        "giver": "discover_giver_trap",
+        "map": "discover_map_trap",
+        "offset": [
+          0,
+          0.065
+        ],
+        "name": "trap",
+        "detail_title": "discover_detail_title_trap",
+        "row_title": "discover_row_glyph_trap",
+        "tracked_title": "pre_tracker_31"
+      },
+      {
+        "title": "pre_title_34",
+        "follow_title": "discover_follow_title_escape",
+        "giver": "discover_giver_escape",
+        "map": "discover_map_escape",
+        "offset": [
+          0,
+          0
+        ],
+        "name": "escape",
+        "detail_title": "discover_detail_title_escape",
+        "row_title": "discover_row_glyph_escape",
+        "tracked_title": "pre_tracker_36"
+      },
+      {
+        "title": "pre_title_43",
+        "follow_title": "discover_follow_title_trouble",
+        "giver": "discover_giver_trouble",
+        "map": "discover_map_trouble",
+        "offset": [
+          0,
+          0
+        ],
+        "name": "trouble",
+        "detail_title": "discover_detail_title_trouble",
+        "row_title": "discover_row_glyph_trouble",
+        "tracked_title": "pre_tracker_45"
+      },
+      {
+        "title": "pre_title_48",
+        "follow_title": "discover_follow_title_feast",
+        "giver": "discover_giver_feast",
+        "map": "discover_map_feast",
+        "offset": [
+          0,
+          0
+        ],
+        "name": "feast",
+        "detail_title": "discover_detail_title_feast",
+        "row_title": "discover_row_glyph_feast",
+        "tracked_title": "pre_tracker_49"
+      },
+      {
+        "title": "pre_title_51",
+        "follow_title": "discover_follow_title_borrowed",
+        "giver": "discover_giver_borrowed",
+        "map": "discover_map_borrowed",
+        "offset": [
+          0,
+          0.065
+        ],
+        "name": "borrowed",
+        "detail_title": "discover_detail_title_borrowed",
+        "row_title": "discover_row_glyph_borrowed",
+        "tracked_title": "pre_tracker_52"
+      },
+      {
+        "title": "pre_title_55",
+        "follow_title": "discover_follow_title_strong",
+        "giver": "discover_giver_strong",
+        "map": "discover_map_strong",
+        "offset": [
+          0,
+          0.065
+        ],
+        "name": "strong",
+        "detail_title": "discover_detail_title_strong",
+        "row_title": "discover_row_glyph_strong",
+        "tracked_title": "pre_tracker_56"
+      },
+      {
+        "title": "pre_title_60",
+        "follow_title": "discover_follow_title_sun",
+        "giver": "discover_giver_sun",
+        "map": "discover_map_sun",
+        "offset": [
+          0,
+          0
+        ],
+        "name": "sun",
+        "detail_title": "discover_detail_title_sun",
+        "row_title": "discover_row_glyph_sun",
+        "tracked_title": "pre_tracker_61"
+      },
+      {
+        "title": "pre_title_64",
+        "follow_title": "discover_follow_title_struggle",
+        "giver": "discover_giver_struggle",
+        "map": "discover_map_struggle",
+        "offset": [
+          0,
+          0.065
+        ],
+        "name": "struggle",
+        "detail_title": "discover_detail_title_struggle",
+        "row_title": "discover_row_glyph_struggle",
+        "tracked_title": "pre_tracker_65"
+      },
+      {
+        "title": "pre_title_68",
+        "follow_title": "discover_follow_title_gamble",
+        "giver": "discover_giver_gamble",
+        "map": "discover_map_gamble",
+        "offset": [
+          0,
+          0
+        ],
+        "name": "gamble",
+        "detail_title": "discover_detail_title_gamble",
+        "row_title": "discover_row_glyph_gamble",
+        "tracked_title": "pre_tracker_69"
+      },
+      {
+        "title": "pre_title_71",
+        "follow_title": "discover_follow_title_kill_lord",
+        "giver": "discover_giver_kill_lord",
+        "map": "discover_map_kill_lord",
+        "offset": [
+          0,
+          0.065
+        ],
+        "name": "kill_lord",
+        "detail_title": "discover_detail_title_kill_lord",
+        "row_title": "discover_row_glyph_kill_lord",
+        "tracked_title": "pre_tracker_72"
+      },
+      {
+        "title": "pre_title_79",
+        "follow_title": "discover_follow_title_finale",
+        "giver": "discover_giver_finale",
+        "map": "discover_map_finale",
+        "offset": [
+          0,
+          0
+        ],
+        "name": "finale",
+        "detail_title": "discover_detail_title_finale",
+        "row_title": "discover_row_glyph_finale",
+        "tracked_title": "pre_tracker_81"
+      },
+      {
+        "title": "pre_title_89",
+        "follow_title": "discover_follow_title_storm",
+        "giver": "discover_giver_storm",
+        "map": "discover_map_storm",
+        "offset": [
+          0,
+          0
+        ],
+        "name": "storm",
+        "detail_title": "discover_detail_title_storm",
+        "row_title": "discover_row_glyph_storm",
+        "tracked_title": "pre_tracker_91"
+      },
+      {
+        "title": "pre_title_93",
+        "follow_title": "discover_follow_title_yudang",
+        "giver": "discover_giver_yudang",
+        "map": "discover_map_yudang",
+        "offset": [
+          0,
+          0
+        ],
+        "name": "yudang",
+        "detail_title": "discover_detail_title_yudang",
+        "row_title": "discover_row_glyph_yudang"
+      }
+    ],
+    "max_pages": 8,
+    "reset_swipes": 5,
+    "swipe": [
+      0.6,
+      0.79,
+      0.6,
+      0.36,
+      300
+    ],
+    "scrollbar_box": [
+      0.941,
+      0.195,
+      0.958,
+      0.885
+    ],
+    "scrollbar_top_max": 0.235,
+    "scrollbar_bottom_min": 0.853,
+    "tab_boxes": [
+      [
+        0.056,
+        0.149,
+        0.238,
+        0.177
+      ],
+      [
+        0.268,
+        0.149,
+        0.455,
+        0.177
+      ]
+    ],
+    "trace_column": [
+      0.77,
+      0.93,
+      -0.005,
+      0.055,
+      0.19,
+      0.893
+    ],
+    "tracker_box": [
+      0.63,
+      0.231,
+      0.98,
+      0.269
+    ],
+    "completion_box": [
+      0.52,
+      0.51,
+      0.86,
+      0.67
+    ],
+    "row_title_tolerance": 0.02,
+    "tracker_search_box": [
+      0.63,
+      0.23,
+      0.99,
+      0.44
+    ],
+    "tooltip_settle_ms": 6500,
+    "npc_approach_settle_ms": 1800,
+    "tracker_interval_ms": 1500,
+    "tracker_max_taps": 6,
+    "yudang_list_close_timeout_ms": 5000
+  },
+  "_preparation": [
+    {
+      "id": 0,
+      "name": "option_intro",
+      "guards": [
+        "early_option_npc"
+      ],
+      "action": "early_action_option_intro",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "historical/intro-option.png",
+      "parts_only": false,
+      "action_source": "historical/intro-option.png"
+    },
+    {
+      "id": 1,
+      "name": "accept_intro",
+      "guards": [
+        "early_title_accept_intro"
+      ],
+      "action": "early_action_accept_intro",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "live02-intro-accept-clean.png",
+      "parts_only": false,
+      "action_source": "live02-intro-accept-clean.png"
+    },
+    {
+      "id": 2,
+      "name": "follow_intro",
+      "guards": [
+        "early_title_follow_intro"
+      ],
+      "action": "early_action_follow_intro",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "historical/intro-follow.png",
+      "parts_only": false,
+      "action_source": "historical/intro-follow.png"
+    },
+    {
+      "id": 3,
+      "name": "npc_wu_intro",
+      "guards": [
+        "early_tracker_npc_wu_intro",
+        "early_map_npc_wu_intro"
+      ],
+      "action": "early_action_npc_wu_intro",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "historical/intro-world.png",
+      "parts_only": false,
+      "action_source": "historical/intro-world.png"
+    },
+    {
+      "id": 4,
+      "name": "finish_intro",
+      "guards": [
+        "early_title_finish_intro"
+      ],
+      "action": "early_action_finish_intro",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "historical/intro-finish.png",
+      "parts_only": false,
+      "action_source": "historical/intro-finish.png"
+    },
+    {
+      "id": 5,
+      "name": "accept_infiltrate",
+      "guards": [
+        "early_title_accept_infiltrate"
+      ],
+      "action": "early_action_accept_infiltrate",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "live02-infiltrate-accept-clean.png",
+      "parts_only": false,
+      "action_source": "live02-intro-accept-clean.png"
+    },
+    {
+      "id": 6,
+      "name": "enemy_infiltrate",
+      "guards": [
+        "early_tracker_enemy_infiltrate",
+        "early_map_enemy_infiltrate"
+      ],
+      "action": "early_action_enemy_infiltrate",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "world",
+      "source": "live02-infiltrate-world-real.png",
+      "parts_only": false,
+      "action_source": "historical/infiltrate-world.png"
+    },
+    {
+      "id": 7,
+      "name": "npc_wu_infiltrate",
+      "guards": [
+        "early_tracker_npc_wu_infiltrate",
+        "early_map_npc_wu_infiltrate"
+      ],
+      "action": "early_action_npc_wu_infiltrate",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "historical/infiltrate-world.png",
+      "parts_only": false,
+      "action_source": "historical/infiltrate-world.png"
+    },
+    {
+      "id": 8,
+      "name": "finish_infiltrate",
+      "guards": [
+        "early_title_finish_infiltrate"
+      ],
+      "action": "early_action_finish_infiltrate",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "live02-infiltrate-finish-clean.png",
+      "parts_only": false,
+      "action_source": "historical/intro-finish.png"
+    },
+    {
+      "id": 9,
+      "name": "accept_risk",
+      "guards": [
+        "pre_title_09"
+      ],
+      "action": "pre_action_09",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792829920297357700/before.png"
+    },
+    {
+      "id": 10,
+      "name": "enemy_guard",
+      "guards": [
+        "pre_tracker_10",
+        "pre_map_10"
+      ],
+      "action": "pre_action_10",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792829972449578200/before.png"
+    },
+    {
+      "id": 11,
+      "name": "npc_wu",
+      "guards": [
+        "pre_tracker_11",
+        "pre_map_11"
+      ],
+      "action": "pre_action_11",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792830037845767400/before.png"
+    },
+    {
+      "id": 12,
+      "name": "finish_risk",
+      "guards": [
+        "pre_title_12"
+      ],
+      "action": "pre_action_12",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792830070810551700/before.png"
+    },
+    {
+      "id": 13,
+      "name": "accept_scare",
+      "guards": [
+        "pre_title_13"
+      ],
+      "action": "pre_action_13",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792830113282992200/before.png"
+    },
+    {
+      "id": 14,
+      "name": "enemy_chen",
+      "guards": [
+        "pre_tracker_14",
+        "pre_map_14"
+      ],
+      "action": "pre_action_14",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792830160477888700/before.png"
+    },
+    {
+      "id": 15,
+      "name": "npc_wu",
+      "guards": [
+        "pre_tracker_15",
+        "pre_map_15"
+      ],
+      "action": "pre_action_15",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792830247347669200/before.png"
+    },
+    {
+      "id": 16,
+      "name": "finish_scare",
+      "guards": [
+        "pre_title_16"
+      ],
+      "action": "pre_action_16",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792830290447193900/before.png"
+    },
+    {
+      "id": 17,
+      "name": "accept_opportunity",
+      "guards": [
+        "pre_title_17"
+      ],
+      "action": "pre_action_17",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792830333389845400/before.png"
+    },
+    {
+      "id": 18,
+      "name": "tracker_opportunity",
+      "guards": [
+        "pre_tracker_18",
+        "pre_map_18"
+      ],
+      "action": "pre_action_18",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792830376043615900/before.png"
+    },
+    {
+      "id": 19,
+      "name": "npc_suicide",
+      "guards": [
+        "pre_tracker_19",
+        "pre_map_19"
+      ],
+      "action": "pre_action_19",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792830418828636800/before.png"
+    },
+    {
+      "id": 20,
+      "name": "finish_opportunity",
+      "guards": [
+        "pre_title_20"
+      ],
+      "action": "pre_action_20",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792830459864401200/before.png"
+    },
+    {
+      "id": 21,
+      "name": "npc_patrol",
+      "guards": [
+        "pre_tracker_21",
+        "pre_map_21"
+      ],
+      "action": "pre_action_21",
+      "offset": [
+        0,
+        0.05
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "world",
+      "source": "actions/1792830564316151300/before.png",
+      "after_completion": 20,
+      "completed_tracker": "pre_tracker_19"
+    },
+    {
+      "id": 22,
+      "name": "accept_exposed",
+      "guards": [
+        "pre_title_22"
+      ],
+      "action": "pre_action_22",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792830605083594100/before.png"
+    },
+    {
+      "id": 23,
+      "name": "tracker_exposed",
+      "guards": [
+        "pre_tracker_23",
+        "pre_map_23"
+      ],
+      "action": "pre_action_23",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792830896721613000/before.png"
+    },
+    {
+      "id": 24,
+      "name": "npc_patrol2",
+      "guards": [
+        "pre_tracker_24",
+        "pre_map_24"
+      ],
+      "action": "pre_action_24",
+      "offset": [
+        0,
+        0.05
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792831019344079300/before.png"
+    },
+    {
+      "id": 25,
+      "name": "finish_exposed",
+      "guards": [
+        "pre_title_25"
+      ],
+      "action": "pre_action_25",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792831067371382900/before.png"
+    },
+    {
+      "id": 26,
+      "name": "npc_wu",
+      "guards": [
+        "pre_tracker_26",
+        "pre_map_26"
+      ],
+      "action": "pre_action_26",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "world",
+      "source": "actions/1792831119288885300/before.png",
+      "after_completion": 25,
+      "completed_tracker": "pre_tracker_24"
+    },
+    {
+      "id": 27,
+      "name": "accept_clear",
+      "guards": [
+        "pre_title_27"
+      ],
+      "action": "pre_action_27",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792831172288007400/before.png"
+    },
+    {
+      "id": 28,
+      "name": "npc_zhu",
+      "guards": [
+        "pre_tracker_28",
+        "pre_map_28"
+      ],
+      "action": "pre_action_28",
+      "offset": [
+        0,
+        0.065
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792831289797051600/before.png"
+    },
+    {
+      "id": 29,
+      "name": "finish_clear",
+      "guards": [
+        "pre_title_29"
+      ],
+      "action": "pre_action_29",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792831346626733700/before.png"
+    },
+    {
+      "id": 30,
+      "name": "accept_trap",
+      "guards": [
+        "pre_title_30"
+      ],
+      "action": "pre_action_30",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792831564134588900/before.png"
+    },
+    {
+      "id": 31,
+      "name": "npc_zhu",
+      "guards": [
+        "pre_tracker_31",
+        "pre_map_31"
+      ],
+      "action": "pre_action_31",
+      "offset": [
+        0,
+        0.065
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792831610106534700/before.png"
+    },
+    {
+      "id": 32,
+      "name": "finish_trap",
+      "guards": [
+        "pre_title_32"
+      ],
+      "action": "pre_action_32",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792831627171185100/before.png"
+    },
+    {
+      "id": 33,
+      "name": "npc_suicide",
+      "guards": [
+        "pre_tracker_33",
+        "pre_map_33"
+      ],
+      "action": "pre_action_33",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "world",
+      "source": "actions/1792831648288713900/before.png",
+      "after_completion": 32,
+      "completed_tracker": "pre_tracker_31"
+    },
+    {
+      "id": 34,
+      "name": "accept_escape",
+      "guards": [
+        "pre_title_34"
+      ],
+      "action": "pre_action_34",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792831669813827500/before.png"
+    },
+    {
+      "id": 35,
+      "name": "follow_escape",
+      "guards": [
+        "pre_follow_title_35"
+      ],
+      "action": "pre_action_35",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792831704950233900/before.png"
+    },
+    {
+      "id": 36,
+      "name": "npc_chang",
+      "guards": [
+        "pre_tracker_36",
+        "pre_map_36"
+      ],
+      "action": "pre_action_36",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792831770586151900/before.png"
+    },
+    {
+      "id": 37,
+      "name": "finish_escape",
+      "guards": [
+        "pre_title_37"
+      ],
+      "action": "pre_action_37",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792831795973024300/before.png"
+    },
+    {
+      "id": 38,
+      "name": "reward_select",
+      "guards": [
+        "pre_reward_title_38"
+      ],
+      "action": "pre_action_38",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "modal",
+      "source": "actions/1792831833114127400/before.png"
+    },
+    {
+      "id": 39,
+      "name": "reward_open",
+      "guards": [
+        "pre_reward_title_39"
+      ],
+      "action": "pre_action_39",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "modal",
+      "source": "actions/1792831860750473300/before.png"
+    },
+    {
+      "id": 40,
+      "name": "reward_received_close",
+      "guards": [
+        "pre_reward_title_40",
+        "reward_obtained_title_40"
+      ],
+      "action": "pre_action_40",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "modal",
+      "source": "actions/1792831890517343100/before.png"
+    },
+    {
+      "id": 41,
+      "name": "reward_close",
+      "guards": [
+        "pre_reward_title_41"
+      ],
+      "action": "pre_action_41",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "modal",
+      "source": "actions/1792831918470353900/before.png"
+    },
+    {
+      "id": 42,
+      "name": "npc_chen_giver",
+      "guards": [
+        "pre_tracker_42",
+        "pre_map_42"
+      ],
+      "action": "pre_action_42",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "world",
+      "source": "actions/1792831960071763300/before.png",
+      "after_completion": 41,
+      "completed_tracker": "pre_tracker_36"
+    },
+    {
+      "id": 43,
+      "name": "accept_trouble",
+      "guards": [
+        "pre_title_43"
+      ],
+      "action": "pre_action_43",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792831995575084600/before.png"
+    },
+    {
+      "id": 44,
+      "name": "follow_escape",
+      "guards": [
+        "pre_follow_title_44"
+      ],
+      "action": "pre_action_44",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792832027080521600/before.png"
+    },
+    {
+      "id": 45,
+      "name": "npc_lord",
+      "guards": [
+        "pre_tracker_45",
+        "pre_map_45"
+      ],
+      "action": "pre_action_45",
+      "offset": [
+        0,
+        0.065
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792832101775547300/before.png"
+    },
+    {
+      "id": 46,
+      "name": "finish_trouble",
+      "guards": [
+        "pre_title_46"
+      ],
+      "action": "pre_action_46",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792832134523125100/before.png"
+    },
+    {
+      "id": 47,
+      "name": "npc_chen_hall",
+      "guards": [
+        "pre_tracker_47",
+        "pre_map_47"
+      ],
+      "action": "pre_action_47",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "world",
+      "source": "actions/1792832171423257300/before.png",
+      "after_completion": 46,
+      "completed_tracker": "pre_tracker_45"
+    },
+    {
+      "id": 48,
+      "name": "accept_feast",
+      "guards": [
+        "pre_title_48"
+      ],
+      "action": "pre_action_48",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792832207846820100/before.png"
+    },
+    {
+      "id": 49,
+      "name": "npc_lord",
+      "guards": [
+        "pre_tracker_49",
+        "pre_map_49"
+      ],
+      "action": "pre_action_49",
+      "offset": [
+        0,
+        0.065
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792832246408421300/before.png"
+    },
+    {
+      "id": 50,
+      "name": "finish_feast",
+      "guards": [
+        "pre_title_50"
+      ],
+      "action": "pre_action_50",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792832291099419200/before.png"
+    },
+    {
+      "id": 51,
+      "name": "accept_borrowed",
+      "guards": [
+        "pre_title_51"
+      ],
+      "action": "pre_action_51",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792832337978277300/before.png"
+    },
+    {
+      "id": 52,
+      "name": "enemy_lord_guard",
+      "guards": [
+        "pre_tracker_52",
+        "pre_map_52"
+      ],
+      "action": "pre_action_52",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792832561760522700/before.png"
+    },
+    {
+      "id": 53,
+      "name": "npc_lord",
+      "guards": [
+        "pre_tracker_53",
+        "pre_map_53"
+      ],
+      "action": "pre_action_53",
+      "offset": [
+        0,
+        0.065
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792832659481043300/before.png"
+    },
+    {
+      "id": 54,
+      "name": "finish_borrowed",
+      "guards": [
+        "pre_title_54"
+      ],
+      "action": "pre_action_54",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792832705405475200/before.png"
+    },
+    {
+      "id": 55,
+      "name": "accept_strong",
+      "guards": [
+        "pre_title_55"
+      ],
+      "action": "pre_action_55",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792832749742534900/before.png"
+    },
+    {
+      "id": 56,
+      "name": "enemy_strong",
+      "guards": [
+        "pre_tracker_56",
+        "pre_map_56"
+      ],
+      "action": "pre_action_56",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792832825726156100/before.png"
+    },
+    {
+      "id": 57,
+      "name": "npc_lord",
+      "guards": [
+        "pre_tracker_57",
+        "pre_map_57"
+      ],
+      "action": "pre_action_57",
+      "offset": [
+        0,
+        0.065
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792832933675463000/before.png"
+    },
+    {
+      "id": 58,
+      "name": "finish_strong",
+      "guards": [
+        "pre_title_58"
+      ],
+      "action": "pre_action_58",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792832976158802800/before.png"
+    },
+    {
+      "id": 59,
+      "name": "npc_sun",
+      "guards": [
+        "pre_tracker_59",
+        "pre_map_59"
+      ],
+      "action": "pre_action_59",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "world",
+      "source": "actions/1792833031062051800/before.png",
+      "after_completion": 58,
+      "completed_tracker": "pre_tracker_57"
+    },
+    {
+      "id": 60,
+      "name": "accept_sun",
+      "guards": [
+        "pre_title_60"
+      ],
+      "action": "pre_action_60",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792833113696234700/before.png"
+    },
+    {
+      "id": 61,
+      "name": "npc_sun",
+      "guards": [
+        "pre_tracker_61",
+        "pre_map_61"
+      ],
+      "action": "pre_action_61",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792833219321849800/before.png"
+    },
+    {
+      "id": 62,
+      "name": "finish_sun",
+      "guards": [
+        "pre_title_62"
+      ],
+      "action": "pre_action_62",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792833269479015200/before.png"
+    },
+    {
+      "id": 63,
+      "name": "npc_lord",
+      "guards": [
+        "pre_tracker_63",
+        "pre_map_63"
+      ],
+      "action": "pre_action_63",
+      "offset": [
+        0,
+        0.065
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "world",
+      "source": "actions/1792833319259751200/before.png",
+      "after_completion": 62,
+      "completed_tracker": "pre_tracker_61"
+    },
+    {
+      "id": 64,
+      "name": "accept_struggle",
+      "guards": [
+        "pre_title_64"
+      ],
+      "action": "pre_action_64",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792833380947575700/before.png"
+    },
+    {
+      "id": 65,
+      "name": "enemy_politician",
+      "guards": [
+        "pre_tracker_65",
+        "pre_map_65"
+      ],
+      "action": "pre_action_65",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792833435889121400/before.png"
+    },
+    {
+      "id": 66,
+      "name": "npc_chen_hall",
+      "guards": [
+        "pre_tracker_66",
+        "pre_map_66"
+      ],
+      "action": "pre_action_66",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792833556168302800/before.png"
+    },
+    {
+      "id": 67,
+      "name": "finish_struggle",
+      "guards": [
+        "pre_title_67"
+      ],
+      "action": "pre_action_67",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792833610715458700/before.png"
+    },
+    {
+      "id": 68,
+      "name": "accept_gamble",
+      "guards": [
+        "pre_title_68"
+      ],
+      "action": "pre_action_68",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792833666869849700/before.png"
+    },
+    {
+      "id": 69,
+      "name": "npc_lord",
+      "guards": [
+        "pre_tracker_69",
+        "pre_map_69"
+      ],
+      "action": "pre_action_69",
+      "offset": [
+        0,
+        0.065
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792833669265402000/before.png"
+    },
+    {
+      "id": 70,
+      "name": "finish_gamble",
+      "guards": [
+        "pre_title_70"
+      ],
+      "action": "pre_action_70",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792833739945372700/before.png"
+    },
+    {
+      "id": 71,
+      "name": "accept_kill_lord",
+      "guards": [
+        "pre_title_71"
+      ],
+      "action": "pre_action_71",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792833792503945000/before.png"
+    },
+    {
+      "id": 72,
+      "name": "npc_lord",
+      "guards": [
+        "pre_tracker_72",
+        "pre_map_72"
+      ],
+      "action": "pre_action_72",
+      "offset": [
+        0,
+        0.065
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792833858837131200/before.png"
+    },
+    {
+      "id": 73,
+      "name": "finish_kill_lord",
+      "guards": [
+        "pre_title_73"
+      ],
+      "action": "pre_action_73",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792833940337250400/before.png"
+    },
+    {
+      "id": 74,
+      "name": "reward_select",
+      "guards": [
+        "pre_reward_title_74"
+      ],
+      "action": "pre_action_74",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "modal",
+      "source": "actions/1792833942492647000/before.png"
+    },
+    {
+      "id": 75,
+      "name": "reward_open",
+      "guards": [
+        "pre_reward_title_75"
+      ],
+      "action": "pre_action_75",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "modal",
+      "source": "actions/1792833944716475400/before.png"
+    },
+    {
+      "id": 76,
+      "name": "reward_received_close",
+      "guards": [
+        "pre_reward_title_76",
+        "reward_obtained_title_76"
+      ],
+      "action": "pre_action_76",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "modal",
+      "source": "actions/1792834006333651500/before.png"
+    },
+    {
+      "id": 77,
+      "name": "reward_close",
+      "guards": [
+        "pre_reward_title_77"
+      ],
+      "action": "pre_action_77",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "modal",
+      "source": "actions/1792834008571680900/before.png"
+    },
+    {
+      "id": 78,
+      "name": "npc_chen_hall",
+      "guards": [
+        "pre_tracker_78",
+        "pre_map_78"
+      ],
+      "action": "pre_action_78",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "world",
+      "source": "actions/1792834011364587600/before.png",
+      "after_completion": 77,
+      "completed_tracker": "pre_tracker_72"
+    },
+    {
+      "id": 79,
+      "name": "accept_finale",
+      "guards": [
+        "pre_title_79"
+      ],
+      "action": "pre_action_79",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792834073960256100/before.png"
+    },
+    {
+      "id": 80,
+      "name": "follow_escape",
+      "guards": [
+        "pre_follow_title_80"
+      ],
+      "action": "pre_action_80",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792834076316651600/before.png"
+    },
+    {
+      "id": 81,
+      "name": "npc_chen_giver",
+      "guards": [
+        "pre_tracker_81",
+        "pre_map_81"
+      ],
+      "action": "pre_action_81",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792834140269066200/before.png"
+    },
+    {
+      "id": 82,
+      "name": "finish_finale",
+      "guards": [
+        "pre_title_82"
+      ],
+      "action": "pre_action_82",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792834201517040400/before.png"
+    },
+    {
+      "id": 83,
+      "name": "reward_select",
+      "guards": [
+        "pre_reward_title_83"
+      ],
+      "action": "pre_action_83",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "modal",
+      "source": "actions/1792834203892801100/before.png"
+    },
+    {
+      "id": 84,
+      "name": "reward_open",
+      "guards": [
+        "pre_reward_title_84"
+      ],
+      "action": "pre_action_84",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "modal",
+      "source": "actions/1792834206294367200/before.png"
+    },
+    {
+      "id": 85,
+      "name": "reward_received_close",
+      "guards": [
+        "pre_reward_title_85",
+        "reward_obtained_title_85"
+      ],
+      "action": "pre_action_85",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "modal",
+      "source": "actions/1792834262813638300/before.png"
+    },
+    {
+      "id": 86,
+      "name": "reward_close",
+      "guards": [
+        "pre_reward_title_86"
+      ],
+      "action": "pre_action_86",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "modal",
+      "source": "actions/1792834265335756800/before.png"
+    },
+    {
+      "id": 87,
+      "name": "npc_chen_giver",
+      "guards": [
+        "pre_tracker_87",
+        "pre_map_87"
+      ],
+      "action": "pre_action_87",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": false,
+      "kind": "world",
+      "source": "actions/1792834268216037400/before.png",
+      "after_completion": 86,
+      "completed_tracker": "pre_tracker_81"
+    },
+    {
+      "id": 88,
+      "name": "intro_confirm",
+      "guards": [
+        "pre_intro_title_88"
+      ],
+      "action": "pre_action_88",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792834813050627600/before.png"
+    },
+    {
+      "id": 89,
+      "name": "accept_storm",
+      "guards": [
+        "pre_title_89"
+      ],
+      "action": "pre_action_89",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792834879834467900/before.png"
+    },
+    {
+      "id": 90,
+      "name": "follow_escape",
+      "guards": [
+        "pre_follow_title_90"
+      ],
+      "action": "pre_action_90",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792834951298456000/before.png"
+    },
+    {
+      "id": 91,
+      "name": "npc_fan",
+      "guards": [
+        "pre_tracker_91",
+        "pre_map_91"
+      ],
+      "action": "pre_action_91",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": true,
+      "startable": true,
+      "kind": "world",
+      "source": "actions/1792835088528916900/before.png"
+    },
+    {
+      "id": 92,
+      "name": "finish_storm",
+      "guards": [
+        "pre_title_92"
+      ],
+      "action": "pre_action_92",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792835169098345100/before.png"
+    },
+    {
+      "id": 93,
+      "name": "accept_yudang",
+      "guards": [
+        "pre_title_93"
+      ],
+      "action": "pre_action_93",
+      "offset": [
+        0,
+        0
+      ],
+      "tracker_green": false,
+      "startable": true,
+      "kind": "modal",
+      "source": "actions/1792835242300373500/before.png"
+    }
+  ],
+  "_preparation_sources": {
+    "early_option_npc": "historical/intro-option.png",
+    "early_action_option_intro": "historical/intro-option.png",
+    "early_title_accept_intro": "historical/intro-accept.png",
+    "early_action_accept_intro": "live02-intro-accept-clean.png",
+    "early_title_follow_intro": "historical/intro-follow.png",
+    "early_action_follow_intro": "historical/intro-follow.png",
+    "early_tracker_npc_wu_intro": "historical/intro-world.png",
+    "early_map_npc_wu_intro": "historical/intro-world.png",
+    "early_action_npc_wu_intro": "historical/intro-world.png",
+    "early_title_finish_intro": "historical/intro-finish.png",
+    "early_action_finish_intro": "historical/intro-finish.png",
+    "early_title_accept_infiltrate": "historical/infiltrate-accept.png",
+    "early_action_accept_infiltrate": "live02-intro-accept-clean.png",
+    "early_tracker_enemy_infiltrate": "historical/infiltrate-world.png",
+    "early_map_enemy_infiltrate": "historical/infiltrate-world.png",
+    "early_action_enemy_infiltrate": "historical/infiltrate-world.png",
+    "early_tracker_npc_wu_infiltrate": "historical/infiltrate-world.png",
+    "early_map_npc_wu_infiltrate": "historical/infiltrate-world.png",
+    "early_action_npc_wu_infiltrate": "historical/infiltrate-world.png",
+    "early_title_finish_infiltrate": "historical/infiltrate-accept.png",
+    "early_action_finish_infiltrate": "historical/intro-finish.png",
+    "pre_title_09": "actions/1792829920297357700/before.png",
+    "pre_action_09": "actions/1792829920297357700/before.png",
+    "pre_tracker_10": "actions/1792829972449578200/before.png",
+    "pre_map_10": "actions/1792829972449578200/before.png",
+    "pre_action_10": "actions/1792829972449578200/before.png",
+    "pre_tracker_11": "actions/1792830037845767400/before.png",
+    "pre_map_11": "actions/1792830037845767400/before.png",
+    "pre_action_11": "actions/1792830037845767400/before.png",
+    "pre_title_12": "actions/1792830070810551700/before.png",
+    "pre_action_12": "actions/1792830070810551700/before.png",
+    "pre_title_13": "actions/1792830113282992200/before.png",
+    "pre_action_13": "actions/1792830113282992200/before.png",
+    "pre_tracker_14": "actions/1792830160477888700/before.png",
+    "pre_map_14": "actions/1792830160477888700/before.png",
+    "pre_action_14": "actions/1792830160477888700/before.png",
+    "pre_tracker_15": "actions/1792830247347669200/before.png",
+    "pre_map_15": "actions/1792830247347669200/before.png",
+    "pre_action_15": "actions/1792830247347669200/before.png",
+    "pre_title_16": "actions/1792830290447193900/before.png",
+    "pre_action_16": "actions/1792830290447193900/before.png",
+    "pre_title_17": "actions/1792830333389845400/before.png",
+    "pre_action_17": "actions/1792830333389845400/before.png",
+    "pre_tracker_18": "actions/1792830376043615900/before.png",
+    "pre_map_18": "actions/1792830376043615900/before.png",
+    "pre_action_18": "actions/1792830376043615900/before.png",
+    "pre_tracker_19": "actions/1792830418828636800/before.png",
+    "pre_map_19": "actions/1792830418828636800/before.png",
+    "pre_action_19": "actions/1792830418828636800/before.png",
+    "pre_title_20": "actions/1792830459864401200/before.png",
+    "pre_action_20": "actions/1792830459864401200/before.png",
+    "pre_tracker_21": "actions/1792830564316151300/before.png",
+    "pre_map_21": "actions/1792830564316151300/before.png",
+    "pre_action_21": "actions/1792830564316151300/before.png",
+    "pre_title_22": "actions/1792830605083594100/before.png",
+    "pre_action_22": "actions/1792830605083594100/before.png",
+    "pre_tracker_23": "actions/1792830896721613000/before.png",
+    "pre_map_23": "actions/1792830896721613000/before.png",
+    "pre_action_23": "actions/1792830896721613000/before.png",
+    "pre_tracker_24": "actions/1792831019344079300/before.png",
+    "pre_map_24": "actions/1792831019344079300/before.png",
+    "pre_action_24": "actions/1792831019344079300/before.png",
+    "pre_title_25": "actions/1792831067371382900/before.png",
+    "pre_action_25": "actions/1792831067371382900/before.png",
+    "pre_tracker_26": "actions/1792831119288885300/before.png",
+    "pre_map_26": "actions/1792831119288885300/before.png",
+    "pre_action_26": "actions/1792831119288885300/before.png",
+    "pre_title_27": "actions/1792831172288007400/before.png",
+    "pre_action_27": "actions/1792831172288007400/before.png",
+    "pre_tracker_28": "actions/1792831289797051600/before.png",
+    "pre_map_28": "actions/1792831289797051600/before.png",
+    "pre_action_28": "actions/1792831289797051600/before.png",
+    "pre_title_29": "actions/1792831346626733700/before.png",
+    "pre_action_29": "actions/1792831346626733700/before.png",
+    "pre_title_30": "actions/1792831564134588900/before.png",
+    "pre_action_30": "actions/1792831564134588900/before.png",
+    "pre_tracker_31": "actions/1792831610106534700/before.png",
+    "pre_map_31": "actions/1792831610106534700/before.png",
+    "pre_action_31": "actions/1792831610106534700/before.png",
+    "pre_title_32": "actions/1792831627171185100/before.png",
+    "pre_action_32": "actions/1792831627171185100/before.png",
+    "pre_tracker_33": "actions/1792831648288713900/before.png",
+    "pre_map_33": "actions/1792831648288713900/before.png",
+    "pre_action_33": "actions/1792831648288713900/before.png",
+    "pre_title_34": "actions/1792831669813827500/before.png",
+    "pre_action_34": "actions/1792831669813827500/before.png",
+    "pre_follow_title_35": "actions/1792831704950233900/before.png",
+    "pre_action_35": "actions/1792831704950233900/before.png",
+    "pre_tracker_36": "actions/1792831770586151900/before.png",
+    "pre_map_36": "actions/1792831770586151900/before.png",
+    "pre_action_36": "actions/1792831770586151900/before.png",
+    "pre_title_37": "actions/1792831795973024300/before.png",
+    "pre_action_37": "actions/1792831795973024300/before.png",
+    "pre_reward_title_38": "actions/1792831833114127400/before.png",
+    "pre_action_38": "actions/1792831833114127400/before.png",
+    "pre_reward_title_39": "actions/1792831860750473300/before.png",
+    "pre_action_39": "actions/1792831860750473300/before.png",
+    "pre_reward_title_40": "actions/1792831890517343100/before.png",
+    "pre_action_40": "actions/1792831890517343100/before.png",
+    "pre_reward_title_41": "actions/1792831918470353900/before.png",
+    "pre_action_41": "actions/1792831918470353900/before.png",
+    "pre_tracker_42": "actions/1792831960071763300/before.png",
+    "pre_map_42": "actions/1792831960071763300/before.png",
+    "pre_action_42": "actions/1792831960071763300/before.png",
+    "pre_title_43": "actions/1792831995575084600/before.png",
+    "pre_action_43": "actions/1792831995575084600/before.png",
+    "pre_follow_title_44": "actions/1792832027080521600/before.png",
+    "pre_action_44": "actions/1792832027080521600/before.png",
+    "pre_tracker_45": "actions/1792832101775547300/before.png",
+    "pre_map_45": "actions/1792832101775547300/before.png",
+    "pre_action_45": "actions/1792832101775547300/before.png",
+    "pre_title_46": "actions/1792832134523125100/before.png",
+    "pre_action_46": "actions/1792832134523125100/before.png",
+    "pre_tracker_47": "actions/1792832171423257300/before.png",
+    "pre_map_47": "actions/1792832171423257300/before.png",
+    "pre_action_47": "actions/1792832171423257300/before.png",
+    "pre_title_48": "actions/1792832207846820100/before.png",
+    "pre_action_48": "actions/1792832207846820100/before.png",
+    "pre_tracker_49": "actions/1792832246408421300/before.png",
+    "pre_map_49": "actions/1792832246408421300/before.png",
+    "pre_action_49": "actions/1792832246408421300/before.png",
+    "pre_title_50": "actions/1792832291099419200/before.png",
+    "pre_action_50": "actions/1792832291099419200/before.png",
+    "pre_title_51": "actions/1792832337978277300/before.png",
+    "pre_action_51": "actions/1792832337978277300/before.png",
+    "pre_tracker_52": "actions/1792832561760522700/before.png",
+    "pre_map_52": "actions/1792832561760522700/before.png",
+    "pre_action_52": "actions/1792832561760522700/before.png",
+    "pre_tracker_53": "actions/1792832659481043300/before.png",
+    "pre_map_53": "actions/1792832659481043300/before.png",
+    "pre_action_53": "actions/1792832659481043300/before.png",
+    "pre_title_54": "actions/1792832705405475200/before.png",
+    "pre_action_54": "actions/1792832705405475200/before.png",
+    "pre_title_55": "actions/1792832749742534900/before.png",
+    "pre_action_55": "actions/1792832749742534900/before.png",
+    "pre_tracker_56": "actions/1792832825726156100/before.png",
+    "pre_map_56": "actions/1792832825726156100/before.png",
+    "pre_action_56": "actions/1792832825726156100/before.png",
+    "pre_tracker_57": "actions/1792832933675463000/before.png",
+    "pre_map_57": "actions/1792832933675463000/before.png",
+    "pre_action_57": "actions/1792832933675463000/before.png",
+    "pre_title_58": "actions/1792832976158802800/before.png",
+    "pre_action_58": "actions/1792832976158802800/before.png",
+    "pre_tracker_59": "actions/1792833031062051800/before.png",
+    "pre_map_59": "actions/1792833031062051800/before.png",
+    "pre_action_59": "actions/1792833031062051800/before.png",
+    "pre_title_60": "actions/1792833113696234700/before.png",
+    "pre_action_60": "actions/1792833113696234700/before.png",
+    "pre_tracker_61": "actions/1792833219321849800/before.png",
+    "pre_map_61": "actions/1792833219321849800/before.png",
+    "pre_action_61": "actions/1792833219321849800/before.png",
+    "pre_title_62": "actions/1792833269479015200/before.png",
+    "pre_action_62": "actions/1792833269479015200/before.png",
+    "pre_tracker_63": "actions/1792833319259751200/before.png",
+    "pre_map_63": "actions/1792833319259751200/before.png",
+    "pre_action_63": "actions/1792833319259751200/before.png",
+    "pre_title_64": "actions/1792833380947575700/before.png",
+    "pre_action_64": "actions/1792833380947575700/before.png",
+    "pre_tracker_65": "actions/1792833435889121400/before.png",
+    "pre_map_65": "actions/1792833435889121400/before.png",
+    "pre_action_65": "actions/1792833435889121400/before.png",
+    "pre_tracker_66": "actions/1792833556168302800/before.png",
+    "pre_map_66": "actions/1792833556168302800/before.png",
+    "pre_action_66": "actions/1792833556168302800/before.png",
+    "pre_title_67": "actions/1792833610715458700/before.png",
+    "pre_action_67": "actions/1792833610715458700/before.png",
+    "pre_title_68": "actions/1792833666869849700/before.png",
+    "pre_action_68": "actions/1792833666869849700/before.png",
+    "pre_tracker_69": "actions/1792833669265402000/before.png",
+    "pre_map_69": "actions/1792833669265402000/before.png",
+    "pre_action_69": "actions/1792833669265402000/before.png",
+    "pre_title_70": "actions/1792833739945372700/before.png",
+    "pre_action_70": "actions/1792833739945372700/before.png",
+    "pre_title_71": "actions/1792833792503945000/before.png",
+    "pre_action_71": "actions/1792833792503945000/before.png",
+    "pre_tracker_72": "actions/1792833858837131200/before.png",
+    "pre_map_72": "actions/1792833858837131200/before.png",
+    "pre_action_72": "actions/1792833858837131200/before.png",
+    "pre_title_73": "actions/1792833940337250400/before.png",
+    "pre_action_73": "actions/1792833940337250400/before.png",
+    "pre_reward_title_74": "actions/1792833942492647000/before.png",
+    "pre_action_74": "actions/1792833942492647000/before.png",
+    "pre_reward_title_75": "actions/1792833944716475400/before.png",
+    "pre_action_75": "actions/1792833944716475400/before.png",
+    "pre_reward_title_76": "actions/1792834006333651500/before.png",
+    "pre_action_76": "actions/1792834006333651500/before.png",
+    "pre_reward_title_77": "actions/1792834008571680900/before.png",
+    "pre_action_77": "actions/1792834008571680900/before.png",
+    "pre_tracker_78": "actions/1792834011364587600/before.png",
+    "pre_map_78": "actions/1792834011364587600/before.png",
+    "pre_action_78": "actions/1792834011364587600/before.png",
+    "pre_title_79": "actions/1792834073960256100/before.png",
+    "pre_action_79": "actions/1792834073960256100/before.png",
+    "pre_follow_title_80": "actions/1792834076316651600/before.png",
+    "pre_action_80": "actions/1792834076316651600/before.png",
+    "pre_tracker_81": "actions/1792834140269066200/before.png",
+    "pre_map_81": "actions/1792834140269066200/before.png",
+    "pre_action_81": "actions/1792834140269066200/before.png",
+    "pre_title_82": "actions/1792834201517040400/before.png",
+    "pre_action_82": "actions/1792834201517040400/before.png",
+    "pre_reward_title_83": "actions/1792834203892801100/before.png",
+    "pre_action_83": "actions/1792834203892801100/before.png",
+    "pre_reward_title_84": "actions/1792834206294367200/before.png",
+    "pre_action_84": "actions/1792834206294367200/before.png",
+    "pre_reward_title_85": "actions/1792834262813638300/before.png",
+    "pre_action_85": "actions/1792834262813638300/before.png",
+    "pre_reward_title_86": "actions/1792834265335756800/before.png",
+    "pre_action_86": "actions/1792834265335756800/before.png",
+    "pre_tracker_87": "actions/1792834268216037400/before.png",
+    "pre_map_87": "actions/1792834268216037400/before.png",
+    "pre_action_87": "actions/1792834268216037400/before.png",
+    "pre_intro_title_88": "actions/1792834813050627600/before.png",
+    "pre_action_88": "actions/1792834813050627600/before.png",
+    "pre_title_89": "actions/1792834879834467900/before.png",
+    "pre_action_89": "actions/1792834879834467900/before.png",
+    "pre_follow_title_90": "actions/1792834951298456000/before.png",
+    "pre_action_90": "actions/1792834951298456000/before.png",
+    "pre_tracker_91": "actions/1792835088528916900/before.png",
+    "pre_map_91": "actions/1792835088528916900/before.png",
+    "pre_action_91": "actions/1792835088528916900/before.png",
+    "pre_title_92": "actions/1792835169098345100/before.png",
+    "pre_action_92": "actions/1792835169098345100/before.png",
+    "pre_title_93": "actions/1792835242300373500/before.png",
+    "pre_action_93": "actions/1792835242300373500/before.png",
+    "discover_world_tasks": "finale-follow.png",
+    "discover_tasks_available": "tasks-available.png",
+    "discover_tasks_close": "tasks-scrolled.png",
+    "discover_quest_close": "opportunity-next.png",
+    "discover_follow_escape": "escape-accepted.png",
+    "discover_intro_title": "yudang-offer.png",
+    "discover_intro_close": "yudang-offer.png",
+    "discover_follow_close": "escape-accepted.png",
+    "discover_list_title": "tasks-scrolled.png",
+    "discover_accepted": "tasks-available.png",
+    "discover_available_idle": "live02-discovery-observe.png",
+    "discover_trace": "tasks-scrolled.png",
+    "discover_chapter_8": "tasks-scrolled.png",
+    "discover_chapter_7": "historical/tasks-7.png",
+    "discover_chapter_6": "historical/tasks-6.png",
+    "discover_giver_intro": "escape-arrival.png",
+    "discover_map_intro": "escape-arrival.png",
+    "discover_giver_infiltrate": "risk-world.png",
+    "discover_map_infiltrate": "risk-world.png",
+    "discover_giver_risk": "risk-world.png",
+    "discover_map_risk": "risk-world.png",
+    "discover_giver_scare": "risk-world.png",
+    "discover_map_scare": "risk-world.png",
+    "discover_giver_opportunity": "risk-world.png",
+    "discover_map_opportunity": "risk-world.png",
+    "discover_giver_exposed": "exposed-patrol-submit.png",
+    "discover_map_exposed": "exposed-patrol-submit.png",
+    "discover_giver_clear": "risk-world.png",
+    "discover_map_clear": "risk-world.png",
+    "discover_giver_trap": "clear-next.png",
+    "discover_map_trap": "clear-next.png",
+    "discover_giver_escape": "opportunity-follow.png",
+    "discover_map_escape": "opportunity-follow.png",
+    "discover_giver_trouble": "escape-arrival.png",
+    "discover_map_trouble": "escape-arrival.png",
+    "discover_giver_feast": "after-trouble.png",
+    "discover_map_feast": "after-trouble.png",
+    "discover_giver_borrowed": "trouble-follow.png",
+    "discover_map_borrowed": "trouble-follow.png",
+    "discover_giver_strong": "trouble-follow.png",
+    "discover_map_strong": "trouble-follow.png",
+    "discover_giver_sun": "after-strong.png",
+    "discover_map_sun": "after-strong.png",
+    "discover_giver_struggle": "trouble-follow.png",
+    "discover_map_struggle": "trouble-follow.png",
+    "discover_giver_gamble": "after-trouble.png",
+    "discover_map_gamble": "after-trouble.png",
+    "discover_giver_kill_lord": "trouble-follow.png",
+    "discover_map_kill_lord": "trouble-follow.png",
+    "discover_giver_finale": "after-trouble.png",
+    "discover_map_finale": "after-trouble.png",
+    "discover_giver_storm": "escape-arrival.png",
+    "discover_map_storm": "escape-arrival.png",
+    "discover_giver_yudang": "storm-follow.png",
+    "discover_map_yudang": "storm-follow.png",
+    "discover_row_intro": "live02-initial.png",
+    "discover_task_tooltip": "live02-list-tooltip.png",
+    "discover_detail": "live02-accepted-tip-dismissed.png",
+    "discover_chapter_6_accepted": "live02-accepted-tip-dismissed.png",
+    "discover_detail_follow": "live02-accepted-detail-follow.png",
+    "discover_detail_title_intro": "live02-accepted-detail-follow.png",
+    "discover_detail_close": "live02-accepted-detail-follow.png",
+    "early_tracker_infiltrate_live02": "live02-infiltrate-world-real.png",
+    "bag_full_error_title": "live02-bag-full.png",
+    "bag_full_message": "live02-bag-full.png",
+    "reward_obtained_title_40": "actions/1792831890517343100/before.png",
+    "reward_obtained_title_76": "actions/1792834006333651500/before.png",
+    "reward_obtained_title_85": "actions/1792834262813638300/before.png",
+    "battle_cooldown_message": "retest-cooldown.png",
+    "battle_cooldown_close": "retest-cooldown.png",
+    "challenge_sun_goal": "retest-sun-continue.png",
+    "challenge_continue": "retest-sun-continue.png",
+    "challenge_sun_title": "retest-sun-continue.png",
+    "tracked_target_here": "retest-tracker-second.png",
+    "quest_navigation_loading": "retest-loading.png",
+    "discover_row_glyph_struggle_retest": "retest-available-next.png",
+    "tracker_yudang_second_live": "clean-yudang-second-world.png",
+    "discover_row_yudang_accepted_live": "reviews/20261025-191445/1792926785717-10457074791265/frame-00007.png",
+    "battle_cooldown_team": "analysis/t075/round1-entry-failure/stopped.png"
+  },
+  "discover_intro_title": {
+    "template": "farm/discover_intro_title.png",
+    "box": [
+      0.3851851851851852,
+      0.3,
+      0.6407407407407407,
+      0.32708333333333334
+    ],
+    "threshold": 0.9
+  },
+  "discover_intro_close": {
+    "template": "farm/discover_intro_close.png",
+    "box": [
+      0.8907407407407407,
+      0.2989583333333333,
+      0.95,
+      0.334375
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_close": {
+    "template": "farm/discover_follow_close.png",
+    "box": [
+      0.8907407407407407,
+      0.2989583333333333,
+      0.95,
+      0.334375
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_risk": {
+    "template": "farm/pre_title_09.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_scare": {
+    "template": "farm/pre_title_13.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_opportunity": {
+    "template": "farm/pre_title_17.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_exposed": {
+    "template": "farm/pre_title_22.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_clear": {
+    "template": "farm/pre_title_27.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_trap": {
+    "template": "farm/pre_title_30.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_escape": {
+    "template": "farm/pre_title_34.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_trouble": {
+    "template": "farm/pre_title_43.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_feast": {
+    "template": "farm/pre_title_48.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_borrowed": {
+    "template": "farm/pre_title_51.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_strong": {
+    "template": "farm/pre_title_55.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_sun": {
+    "template": "farm/pre_title_60.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_struggle": {
+    "template": "farm/pre_title_64.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_gamble": {
+    "template": "farm/pre_title_68.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_kill_lord": {
+    "template": "farm/pre_title_71.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_finale": {
+    "template": "farm/pre_title_79.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_storm": {
+    "template": "farm/pre_title_89.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_yudang": {
+    "template": "farm/pre_title_93.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "early_option_npc": {
+    "template": "farm/early_option_npc.png",
+    "box": [
+      0.44074074074074077,
+      0.19270833333333334,
+      0.6,
+      0.21979166666666666
+    ],
+    "threshold": 0.9
+  },
+  "early_action_option_intro": {
+    "template": "farm/early_action_option_intro.png",
+    "box": [
+      0.3907407407407407,
+      0.7458333333333333,
+      0.65,
+      0.7822916666666667
+    ],
+    "threshold": 0.9
+  },
+  "early_title_accept_intro": {
+    "template": "farm/early_title_accept_intro.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "early_action_accept_intro": {
+    "template": "farm/early_action_accept_intro.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "early_title_follow_intro": {
+    "template": "farm/early_title_follow_intro.png",
+    "box": [
+      0.37962962962962965,
+      0.3,
+      0.6462962962962963,
+      0.32916666666666666
+    ],
+    "threshold": 0.9
+  },
+  "early_action_follow_intro": {
+    "template": "farm/early_action_follow_intro.png",
+    "box": [
+      0.45,
+      0.64375,
+      0.5518518518518518,
+      0.671875
+    ],
+    "threshold": 0.9
+  },
+  "early_tracker_npc_wu_intro": {
+    "template": "farm/early_tracker_npc_wu_intro.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "early_map_npc_wu_intro": {
+    "template": "farm/early_map_npc_wu_intro.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "early_action_npc_wu_intro": {
+    "template": "farm/early_action_npc_wu_intro.png",
+    "box": [
+      0.15,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "early_title_finish_intro": {
+    "template": "farm/early_title_finish_intro.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "early_action_finish_intro": {
+    "template": "farm/early_action_finish_intro.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "early_title_accept_infiltrate": {
+    "template": "farm/early_title_accept_infiltrate.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "early_action_accept_infiltrate": {
+    "template": "farm/early_action_accept_infiltrate.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "early_tracker_enemy_infiltrate": {
+    "template": "farm/early_tracker_enemy_infiltrate.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task",
+    "alternates": [
+      "early_tracker_infiltrate_live02"
+    ]
+  },
+  "early_map_enemy_infiltrate": {
+    "template": "farm/early_map_enemy_infiltrate.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "early_action_enemy_infiltrate": {
+    "template": "farm/early_action_enemy_infiltrate.png",
+    "box": [
+      0.6777777777777778,
+      0.546875,
+      0.9222222222222223,
+      0.5802083333333333
+    ],
+    "threshold": 0.9
+  },
+  "early_tracker_npc_wu_infiltrate": {
+    "template": "farm/early_tracker_npc_wu_infiltrate.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task",
+    "alternates": [
+      "early_tracker_infiltrate_live02"
+    ]
+  },
+  "early_map_npc_wu_infiltrate": {
+    "template": "farm/early_map_npc_wu_infiltrate.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "early_action_npc_wu_infiltrate": {
+    "template": "farm/early_action_npc_wu_infiltrate.png",
+    "box": [
+      0.15,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "early_title_finish_infiltrate": {
+    "template": "farm/early_title_finish_infiltrate.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "early_action_finish_infiltrate": {
+    "template": "farm/early_action_finish_infiltrate.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_09": {
+    "template": "farm/pre_title_09.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_11": {
+    "template": "farm/pre_tracker_11.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_11": {
+    "template": "farm/pre_map_11.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_12": {
+    "template": "farm/pre_title_12.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_17": {
+    "template": "farm/pre_title_17.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_18": {
+    "template": "farm/pre_tracker_18.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_18": {
+    "template": "farm/pre_map_18.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_21": {
+    "template": "farm/pre_tracker_21.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "new_task"
+  },
+  "pre_map_21": {
+    "template": "farm/pre_map_21.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_22": {
+    "template": "farm/pre_title_22.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_23": {
+    "template": "farm/pre_tracker_23.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_23": {
+    "template": "farm/pre_map_23.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_26": {
+    "template": "farm/pre_tracker_26.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "new_task"
+  },
+  "pre_map_26": {
+    "template": "farm/pre_map_26.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_27": {
+    "template": "farm/pre_title_27.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_28": {
+    "template": "farm/pre_tracker_28.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_28": {
+    "template": "farm/pre_map_28.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_29": {
+    "template": "farm/pre_title_29.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_30": {
+    "template": "farm/pre_title_30.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_31": {
+    "template": "farm/pre_tracker_31.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_31": {
+    "template": "farm/pre_map_31.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_32": {
+    "template": "farm/pre_title_32.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_38": {
+    "template": "farm/pre_reward_title_38.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_39": {
+    "template": "farm/pre_reward_title_39.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_40": {
+    "template": "farm/pre_reward_title_40.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_41": {
+    "template": "farm/pre_reward_title_41.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_42": {
+    "template": "farm/pre_tracker_42.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "new_task"
+  },
+  "pre_map_42": {
+    "template": "farm/pre_map_42.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_43": {
+    "template": "farm/pre_title_43.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_follow_title_44": {
+    "template": "farm/pre_follow_title_44.png",
+    "box": [
+      0.37962962962962965,
+      0.3,
+      0.6462962962962963,
+      0.32916666666666666
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_45": {
+    "template": "farm/pre_tracker_45.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_45": {
+    "template": "farm/pre_map_45.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_48": {
+    "template": "farm/pre_title_48.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_49": {
+    "template": "farm/pre_tracker_49.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_49": {
+    "template": "farm/pre_map_49.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_50": {
+    "template": "farm/pre_title_50.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_53": {
+    "template": "farm/pre_tracker_53.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_53": {
+    "template": "farm/pre_map_53.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_54": {
+    "template": "farm/pre_title_54.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_59": {
+    "template": "farm/pre_tracker_59.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "new_task"
+  },
+  "pre_map_59": {
+    "template": "farm/pre_map_59.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_60": {
+    "template": "farm/pre_title_60.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_61": {
+    "template": "farm/pre_tracker_61.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_61": {
+    "template": "farm/pre_map_61.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_65": {
+    "template": "farm/pre_tracker_65.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_65": {
+    "template": "farm/pre_map_65.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_66": {
+    "template": "farm/pre_tracker_66.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_66": {
+    "template": "farm/pre_map_66.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_67": {
+    "template": "farm/pre_title_67.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_68": {
+    "template": "farm/pre_title_68.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_71": {
+    "template": "farm/pre_title_71.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_79": {
+    "template": "farm/pre_title_79.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_follow_title_80": {
+    "template": "farm/pre_follow_title_80.png",
+    "box": [
+      0.37962962962962965,
+      0.3,
+      0.6462962962962963,
+      0.32916666666666666
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_81": {
+    "template": "farm/pre_tracker_81.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_81": {
+    "template": "farm/pre_map_81.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_82": {
+    "template": "farm/pre_title_82.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_83": {
+    "template": "farm/pre_reward_title_83.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_84": {
+    "template": "farm/pre_reward_title_84.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_85": {
+    "template": "farm/pre_reward_title_85.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_85": {
+    "template": "farm/pre_action_85.png",
+    "box": [
+      0.8222222222222222,
+      0.4010416666666667,
+      0.8777777777777778,
+      0.43333333333333335
+    ],
+    "threshold": 0.9
+  },
+  "pre_reward_title_86": {
+    "template": "farm/pre_reward_title_86.png",
+    "box": [
+      0.3592592592592593,
+      0.0875,
+      0.6703703703703704,
+      0.12395833333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_86": {
+    "template": "farm/pre_action_86.png",
+    "box": [
+      0.8796296296296297,
+      0.09375,
+      0.937037037037037,
+      0.12291666666666666
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_87": {
+    "template": "farm/pre_tracker_87.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "new_task"
+  },
+  "pre_map_87": {
+    "template": "farm/pre_map_87.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_87": {
+    "template": "farm/pre_action_87.png",
+    "box": [
+      0.1037037037037037,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_intro_title_88": {
+    "template": "farm/pre_intro_title_88.png",
+    "box": [
+      0.3851851851851852,
+      0.3,
+      0.6407407407407407,
+      0.32708333333333334
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_88": {
+    "template": "farm/pre_action_88.png",
+    "box": [
+      0.44814814814814813,
+      0.6447916666666667,
+      0.5444444444444444,
+      0.6708333333333333
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_89": {
+    "template": "farm/pre_title_89.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_89": {
+    "template": "farm/pre_action_89.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_follow_title_90": {
+    "template": "farm/pre_follow_title_90.png",
+    "box": [
+      0.37962962962962965,
+      0.3,
+      0.6462962962962963,
+      0.32916666666666666
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_90": {
+    "template": "farm/pre_action_90.png",
+    "box": [
+      0.45,
+      0.64375,
+      0.5518518518518518,
+      0.671875
+    ],
+    "threshold": 0.9
+  },
+  "pre_tracker_91": {
+    "template": "farm/pre_tracker_91.png",
+    "box": [
+      0.6296296296296297,
+      0.23,
+      0.9796296296296296,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "pre_map_91": {
+    "template": "farm/pre_map_91.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_91": {
+    "template": "farm/pre_action_91.png",
+    "box": [
+      0.15,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_92": {
+    "template": "farm/pre_title_92.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_92": {
+    "template": "farm/pre_action_92.png",
+    "box": [
+      0.40185185185185185,
+      0.715625,
+      0.5962962962962963,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "pre_title_93": {
+    "template": "farm/pre_title_93.png",
+    "box": [
+      0.37962962962962965,
+      0.221875,
+      0.6462962962962963,
+      0.25
+    ],
+    "threshold": 0.9
+  },
+  "pre_action_93": {
+    "template": "farm/pre_action_93.png",
+    "box": [
+      0.39814814814814814,
+      0.715625,
+      0.6018518518518519,
+      0.7510416666666667
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_intro": {
+    "template": "farm/discover_giver_intro.png",
+    "box": [
+      0.7592592592592593,
+      0.5104166666666666,
+      0.8962962962962963,
+      0.5364583333333334
+    ],
+    "threshold": 0.9
+  },
+  "discover_map_intro": {
+    "template": "farm/discover_map_intro.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_intro": {
+    "template": "farm/early_title_accept_intro.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_giver_infiltrate": {
+    "template": "farm/discover_giver_infiltrate.png",
+    "box": [
+      0.7796296296296297,
+      0.6989583333333333,
+      0.8685185185185185,
+      0.7260416666666667
+    ],
+    "threshold": 0.9
+  },
+  "discover_map_infiltrate": {
+    "template": "farm/discover_map_infiltrate.png",
+    "box": [
+      0.7703703703703704,
+      0.08958333333333333,
+      0.9981481481481481,
+      0.121875
+    ],
+    "threshold": 0.9
+  },
+  "discover_follow_title_infiltrate": {
+    "template": "farm/early_title_accept_infiltrate.png",
+    "box": [
+      0.38,
+      0.3,
+      0.646,
+      0.329
+    ],
+    "threshold": 0.9
+  },
+  "discover_row_intro": {
+    "template": "farm/discover_row_intro.png",
+    "box": [
+      0.05,
+      0.192,
+      0.7,
+      0.892
+    ],
+    "threshold": 0.94
+  },
+  "discover_task_tooltip": {
+    "template": "farm/discover_task_tooltip.png",
+    "box": [
+      0.13,
+      0.25,
+      0.32,
+      0.45
+    ],
+    "threshold": 0.94
+  },
+  "discover_detail": {
+    "template": "farm/discover_detail.png",
+    "box": [
+      0.8092592592592592,
+      0.290625,
+      0.8907407407407407,
+      0.315625
+    ],
+    "threshold": 0.94
+  },
+  "discover_chapter_6_accepted": {
+    "template": "farm/discover_chapter_6_accepted.png",
+    "box": [
+      0.049,
+      0.192,
+      0.19,
+      0.892
+    ],
+    "threshold": 0.94
+  },
+  "discover_detail_follow": {
+    "template": "farm/discover_detail_follow.png",
+    "box": [
+      0.44814814814814813,
+      0.684375,
+      0.5462962962962963,
+      0.7135416666666666
+    ],
+    "threshold": 0.94
+  },
+  "discover_detail_title_intro": {
+    "template": "farm/discover_detail_title_intro.png",
+    "box": [
+      0.387037037037037,
+      0.1875,
+      0.6407407407407407,
+      0.21354166666666666
+    ],
+    "threshold": 0.94
+  },
+  "discover_detail_close": {
+    "template": "farm/discover_detail_close.png",
+    "box": [
+      0.8962962962962963,
+      0.190625,
+      0.9425925925925925,
+      0.21770833333333334
+    ],
+    "threshold": 0.94
+  },
+  "early_tracker_infiltrate_live02": {
+    "template": "farm/early_tracker_infiltrate_live02.png",
+    "box": [
+      0.63,
+      0.23,
+      0.99,
+      0.44
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "discover_detail_title_infiltrate": {
+    "template": "farm/early_title_accept_infiltrate.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_risk": {
+    "template": "farm/pre_title_09.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_scare": {
+    "template": "farm/pre_title_13.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_opportunity": {
+    "template": "farm/pre_title_17.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_exposed": {
+    "template": "farm/pre_title_22.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_clear": {
+    "template": "farm/pre_title_27.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_trap": {
+    "template": "farm/pre_title_30.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_escape": {
+    "template": "farm/pre_title_34.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_trouble": {
+    "template": "farm/pre_title_43.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_feast": {
+    "template": "farm/pre_title_48.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_borrowed": {
+    "template": "farm/pre_title_51.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_strong": {
+    "template": "farm/pre_title_55.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_sun": {
+    "template": "farm/pre_title_60.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_struggle": {
+    "template": "farm/pre_title_64.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_gamble": {
+    "template": "farm/pre_title_68.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_kill_lord": {
+    "template": "farm/pre_title_71.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_finale": {
+    "template": "farm/pre_title_79.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_storm": {
+    "template": "farm/pre_title_89.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_detail_title_yudang": {
+    "template": "farm/pre_title_93.png",
+    "box": [
+      0.3,
+      0.18,
+      0.76,
+      0.23
+    ],
+    "threshold": 0.9
+  },
+  "discover_row_glyph_intro": {
+    "template": "farm/discover_row_glyph_intro.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_infiltrate": {
+    "template": "farm/discover_row_glyph_infiltrate.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_risk": {
+    "template": "farm/discover_row_glyph_risk.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_scare": {
+    "template": "farm/discover_row_glyph_scare.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_opportunity": {
+    "template": "farm/discover_row_glyph_opportunity.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_exposed": {
+    "template": "farm/discover_row_glyph_exposed.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_clear": {
+    "template": "farm/discover_row_glyph_clear.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_trap": {
+    "template": "farm/discover_row_glyph_trap.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_escape": {
+    "template": "farm/discover_row_glyph_escape.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_trouble": {
+    "template": "farm/discover_row_glyph_trouble.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_feast": {
+    "template": "farm/discover_row_glyph_feast.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_borrowed": {
+    "template": "farm/discover_row_glyph_borrowed.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_strong": {
+    "template": "farm/discover_row_glyph_strong.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_sun": {
+    "template": "farm/discover_row_glyph_sun.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_struggle": {
+    "template": "farm/discover_row_glyph_struggle.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title",
+    "alternates": [
+      "discover_row_glyph_struggle_retest"
+    ]
+  },
+  "discover_row_glyph_gamble": {
+    "template": "farm/discover_row_glyph_gamble.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_kill_lord": {
+    "template": "farm/discover_row_glyph_kill_lord.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_finale": {
+    "template": "farm/discover_row_glyph_finale.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_storm": {
+    "template": "farm/discover_row_glyph_storm.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "discover_row_glyph_yudang": {
+    "template": "farm/discover_row_glyph_yudang.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.9,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "npc_wu_live02": {
+    "template": "farm/npc_wu_live02.png",
+    "box": [
+      0.15,
+      0.35,
+      0.98,
+      0.88
+    ],
+    "threshold": 0.94
+  },
+  "bag_full_error_title": {
+    "template": "farm/bag_full_error_title.png",
+    "box": [
+      0.45,
+      0.4010416666666667,
+      0.5518518518518518,
+      0.428125
+    ],
+    "threshold": 0.94
+  },
+  "bag_full_message": {
+    "template": "farm/bag_full_message.png",
+    "box": [
+      0.13703703703703704,
+      0.446875,
+      0.8629629629629629,
+      0.4864583333333333
+    ],
+    "threshold": 0.94
+  },
+  "reward_obtained_title_40": {
+    "template": "farm/reward_obtained_title_40.png",
+    "box": [
+      0.37037037037037035,
+      0.40520833333333334,
+      0.6407407407407407,
+      0.4354166666666667
+    ],
+    "threshold": 0.94
+  },
+  "reward_obtained_title_76": {
+    "template": "farm/reward_obtained_title_76.png",
+    "box": [
+      0.37037037037037035,
+      0.40520833333333334,
+      0.6407407407407407,
+      0.4354166666666667
+    ],
+    "threshold": 0.94
+  },
+  "reward_obtained_title_85": {
+    "template": "farm/reward_obtained_title_85.png",
+    "box": [
+      0.37037037037037035,
+      0.40520833333333334,
+      0.6407407407407407,
+      0.4354166666666667
+    ],
+    "threshold": 0.94
+  },
+  "battle_cooldown_message": {
+    "template": "farm/battle_cooldown_message.png",
+    "box": [
+      0.12222222222222222,
+      0.446875,
+      0.8768518518518519,
+      0.5177083333333333
+    ],
+    "threshold": 0.94,
+    "alternates": [
+      "battle_cooldown_team"
+    ]
+  },
+  "battle_cooldown_close": {
+    "template": "farm/battle_cooldown_close.png",
+    "box": [
+      0.8101851851851852,
+      0.4,
+      0.8842592592592593,
+      0.4375
+    ],
+    "threshold": 0.94
+  },
+  "_battle_pacing": {
+    "farm_after_exit_ms": 0,
+    "farm_rejected_wait_ms": 3000,
+    "farm_max_rejections": 10,
+    "after_exit_ms": 30000,
+    "rejected_wait_ms": 3000,
+    "max_rejections": 10
+  },
+  "challenge_sun_goal": {
+    "template": "farm/challenge_sun_goal.png",
+    "box": [
+      0.3537037037037037,
+      0.3541666666666667,
+      0.7907407407407407,
+      0.3875
+    ],
+    "threshold": 0.94
+  },
+  "challenge_continue": {
+    "template": "farm/challenge_continue.png",
+    "box": [
+      0.40555555555555556,
+      0.6072916666666667,
+      0.6,
+      0.640625
+    ],
+    "threshold": 0.94
+  },
+  "_challenge_resume": {
+    "title": "challenge_sun_title",
+    "goal": "challenge_sun_goal",
+    "action": "challenge_continue",
+    "entry_timeout_ms": 20000
+  },
+  "challenge_sun_title": {
+    "template": "farm/challenge_sun_title.png",
+    "box": [
+      0.39444444444444443,
+      0.2604166666666667,
+      0.6407407407407407,
+      0.29375
+    ],
+    "threshold": 0.94
+  },
+  "tracked_target_here": {
+    "template": "farm/tracked_target_here.png",
+    "box": [
+      0.25,
+      0.13333333333333333,
+      0.7481481481481481,
+      0.1625
+    ],
+    "threshold": 0.94
+  },
+  "quest_navigation_loading": {
+    "template": "farm/quest_navigation_loading.png",
+    "box": [
+      0.25925925925925924,
+      0.4791666666666667,
+      0.7314814814814815,
+      0.5125
+    ],
+    "threshold": 0.94
+  },
+  "discover_row_glyph_struggle_retest": {
+    "template": "farm/discover_row_glyph_struggle_retest.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.94,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "battle_yudang_name": {
+    "template": "farm/battle_yudang_name.png",
+    "box": [
+      0,
+      0.14,
+      0.38,
+      0.93
+    ],
+    "threshold": 0.94
+  },
+  "tracker_yudang_second_live": {
+    "template": "farm/tracker_yudang_second_live.png",
+    "box": [
+      0.63,
+      0.23,
+      0.84,
+      0.44
+    ],
+    "threshold": 0.94,
+    "glyph": true,
+    "glyph_palette": "task"
+  },
+  "discover_row_yudang_accepted_live": {
+    "template": "farm/discover_row_yudang_accepted_live.png",
+    "box": [
+      0.05,
+      0.19,
+      0.76,
+      0.89
+    ],
+    "threshold": 0.94,
+    "glyph": true,
+    "glyph_palette": "quest_title"
+  },
+  "battle_cooldown_team": {
+    "template": "farm/battle_cooldown_team.png",
+    "box": [
+      0.1222222222,
+      0.446875,
+      0.8768518519,
+      0.5177083333
+    ],
+    "threshold": 0.94,
+    "source": "analysis/t075/round1-entry-failure/stopped.png (540 capture, resized1080 template basis)"
+  },
+  "tracker_yudang_selected": {
+    "template": "farm/tracker_yudang_selected.png",
+    "box": [
+      0.63,
+      0.23,
+      0.84,
+      0.44
+    ],
+    "threshold": 0.94,
+    "glyph": true,
+    "glyph_palette": "task"
+  }
+}

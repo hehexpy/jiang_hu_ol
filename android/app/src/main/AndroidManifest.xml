@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!-- 手机闭环（一键上号·手机版）要常驻前台截屏，需前台服务权限。
+         Android 14+ 还要声明类型为 mediaProjection 才能用 MediaProjection。 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+    <!-- 关掉自动组队悬浮窗要走 window；用普通悬浮窗权限即可，不需要 root -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- targetSdk 35 起有包可见性限制；这里只要看到"能启动的应用"，
+         用 queries 而不是 QUERY_ALL_PACKAGES，权限面更小。 -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+    </queries>
+
+    <!-- 首版刻意不申请任何权限：
+         日志写进 App 私有外部目录（/sdcard/Android/data/<pkg>/files/），
+         该目录既不需要 READ/WRITE_EXTERNAL_STORAGE，adb 也能直接读。 -->
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="false"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <provider
+            android:name=".UpdateProvider"
+            android:authorities="${applicationId}.updates"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+
+        <!-- 截屏（MediaProjection 前台服务）：用户点授权后启动，停就 stopService -->
+        <service
+            android:name=".CaptureService"
+            android:exported="false"
+            android:foregroundServiceType="mediaProjection" />
+
+        <!-- 手势（点击/滑动/返回）+ 读界面文字：用户到系统设置里手动开启 -->
+        <service
+            android:name=".HelperAccessibilityService"
+            android:exported="false"
+            android:label="@string/acc_label"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_service" />
+        </service>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
